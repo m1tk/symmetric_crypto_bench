@@ -159,8 +159,8 @@ fn bench_encrypt(c: &mut Criterion, name: &str, size: usize) {
 
 fn bench(c: &mut Criterion) {
     bench_encrypt(c, "Encrypt 100B", 100);
-    //bench_encrypt(c, "Encrypt 1MB", 1_000_000);
-    //bench_encrypt(c, "Encrypt 100MB", 100_000_000);
+    bench_encrypt(c, "Encrypt 1MB", 1_000_000);
+    bench_encrypt(c, "Encrypt 100MB", 100_000_000);
     bench_decrypt(c, "Decrypt 100B", 100);
     bench_decrypt(c, "Decrypt 1MB", 1_000_000);
     bench_decrypt(c, "Decrypt 100MB", 100_000_000);
