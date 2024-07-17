@@ -1,0 +1,19 @@
+[package]
+name = "symmetric_crypto_bench"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = { version = "0.5.1", features = ["html_reports", "csv_output"] }
+rand = "0.8.5"
+openssl = "0.10.64"
+
+cipher = "0.4.4"
+ascon-aead = "0.4.2"
+
+[build-dependencies]
+cc = "1.1.5"
+
+[[bench]]
+harness = false
+name = "cipher"
