@@ -141,10 +141,10 @@ fn bench_decrypt(c: &mut Criterion, name: &str, size: usize) {
         })
     });
 
-    let tag = ascon.encrypt_in_place_detached(nonce128.as_ref().into(), &ad, &mut input).unwrap();
+    let r = ascon.encrypt(nonce128.as_ref().into(), input.as_ref()).unwrap();
     group.bench_function("RustCrypto ascon128", |b| {
         b.iter(|| {
-            ascon.decrypt_in_place_detached(nonce128.as_ref().into(), &ad, &mut input, &tag)
+            let _r = ascon.decrypt(nonce128.as_ref().into(), r.as_ref()).unwrap();
         })
     });
 
@@ -245,13 +245,13 @@ fn bench_encrypt(c: &mut Criterion, name: &str, size: usize) {
 
     group.bench_function("RustCrypto chacha20poly1305", |b| {
         b.iter(|| {
-            rchacha20poly.encrypt_in_place(&nonce96.into(), b"aad", &mut input).unwrap();
+            rchacha20poly.encrypt_in_place_detached(&nonce96.into(), b"aad", &mut input).unwrap();
         })
     });
 
     group.bench_function("RustCrypto xchacha20poly1305", |b| {
         b.iter(|| {
-            xchacha20poly.encrypt_in_place(&nonce192.into(), b"aad", &mut input).unwrap();
+            xchacha20poly.encrypt_in_place_detached(&nonce192.into(), b"aad", &mut input).unwrap();
         })
     });
 
