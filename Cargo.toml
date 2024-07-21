@@ -10,6 +10,8 @@ openssl = "0.10.64"
 
 cipher = "0.4.4"
 ascon-aead = "0.4.2"
+chacha20 = "0.9.1"
+chacha20poly1305 = "0.10.1"
 
 [build-dependencies]
 cc = "1.1.5"
