@@ -16,6 +16,8 @@ fn bench_decrypt(c: &mut Criterion, name: &str, size: usize) {
     rand.fill_bytes(&mut key128);
     let mut iv       = [0u8; 16];
     rand.fill_bytes(&mut iv);
+    let mut nonce64  = [0u8; 8];
+    rand.fill_bytes(&mut nonce64);
     let mut nonce96  = [0u8; 12];
     rand.fill_bytes(&mut nonce96);
     let mut nonce128 = [0u8; 16];
@@ -33,6 +35,8 @@ fn bench_decrypt(c: &mut Criterion, name: &str, size: usize) {
     let chacha20      = Cipher::chacha20();
     let mut rchacha20 = chacha20::ChaCha20::new(&key.into(), &nonce96.into());
     let mut xchacha20 = chacha20::XChaCha20::new(&key.into(), &nonce192.into());
+    let mut salsa20   = salsa20::Salsa20::new(&key.into(), &nonce64.into());
+    let mut rabbit    = rabbit::Rabbit::new(&key128.into(), &nonce64.into());
     let aes_cbc       = Cipher::aes_256_cbc();
     let aes_ctr       = Cipher::aes_256_ctr();
     let camellia_cbc  = Cipher::camellia_256_cbc();
@@ -66,6 +70,25 @@ fn bench_decrypt(c: &mut Criterion, name: &str, size: usize) {
             // same
             xchacha20.seek(0u32);
             xchacha20.apply_keystream(&mut input);
+        })
+    });
+
+    let mut r = input.clone();
+    salsa20.apply_keystream(&mut r);
+    group.bench_function("RustCrypto salsa20", |b| {
+        b.iter(|| {
+            // same
+            salsa20.seek(0u32);
+            salsa20.apply_keystream(&mut input);
+        })
+    });
+
+    let mut r = input.clone();
+    rabbit.apply_keystream(&mut r);
+    group.bench_function("RustCrypto rabbit", |b| {
+        b.iter(|| {
+            // same
+            rabbit.apply_keystream(&mut input);
         })
     });
 
@@ -136,6 +159,8 @@ fn bench_encrypt(c: &mut Criterion, name: &str, size: usize) {
     rand.fill_bytes(&mut key128);
     let mut iv       = [0u8; 16];
     rand.fill_bytes(&mut iv);
+    let mut nonce64  = [0u8; 8];
+    rand.fill_bytes(&mut nonce64);
     let mut nonce96  = [0u8; 12];
     rand.fill_bytes(&mut nonce96);
     let mut nonce128 = [0u8; 16];
@@ -153,6 +178,8 @@ fn bench_encrypt(c: &mut Criterion, name: &str, size: usize) {
     let chacha20      = Cipher::chacha20();
     let mut rchacha20 = chacha20::ChaCha20::new(&key.into(), &nonce96.into());
     let mut xchacha20 = chacha20::XChaCha20::new(&key.into(), &nonce192.into());
+    let mut salsa20   = salsa20::Salsa20::new(&key.into(), &nonce64.into());
+    let mut rabbit    = rabbit::Rabbit::new(&key128.into(), &nonce64.into());
     let aes_cbc       = Cipher::aes_256_cbc();
     let aes_ctr       = Cipher::aes_256_ctr();
     let camellia_cbc  = Cipher::camellia_256_cbc();
@@ -177,6 +204,18 @@ fn bench_encrypt(c: &mut Criterion, name: &str, size: usize) {
     group.bench_function("RustCrypto xchacha20", |b| {
         b.iter(|| {
             xchacha20.apply_keystream(&mut input);
+        })
+    });
+
+    group.bench_function("RustCrypto salsa20", |b| {
+        b.iter(|| {
+            salsa20.apply_keystream(&mut input);
+        })
+    });
+
+    group.bench_function("RustCrypto rabbit", |b| {
+        b.iter(|| {
+            rabbit.apply_keystream(&mut input);
         })
     });
 
