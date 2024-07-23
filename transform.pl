@@ -39,15 +39,19 @@ close($fh);
 
 foreach my $key (keys %{$hash{"Encrypt"}}) {
 	print "[".$key."], [".$hash{"Encrypt"}{$key}{"100B"}{time}."\\ (".$hash{"Encrypt"}{$key}{"100B"}{th}.")], [".
-	$hash{"Encrypt"}{$key}{"1Mb"}{time}."\\ (".$hash{"Encrypt"}{$key}{"1Mb"}{th}.")], [".
-	$hash{"Encrypt"}{$key}{"100Mb"}{time}."\\ (".$hash{"Encrypt"}{$key}{"100Mb"}{th}.")],\n";
+	$hash{"Encrypt"}{$key}{"10KB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"10KB"}{th}.")], [".
+	$hash{"Encrypt"}{$key}{"1MB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"1MB"}{th}.")], [".
+	$hash{"Encrypt"}{$key}{"100MB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"100MB"}{th}.")], [".
+	$hash{"Encrypt"}{$key}{"1GB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"1GB"}{th}.")],\n";
 }
 
 print "-------------------\n";
 
 
 foreach my $key (keys %{$hash{"Decrypt"}}) {
-	print "[".$key."], [".$hash{"Decrypt"}{$key}{"100B"}{time}."\\ (".$hash{"Decrypt"}{$key}{"100B"}{th}.")], [".
-	$hash{"Decrypt"}{$key}{"1Mb"}{time}."\\ (".$hash{"Decrypt"}{$key}{"1Mb"}{th}.")], [".
-	$hash{"Decrypt"}{$key}{"100Mb"}{time}."\\ (".$hash{"Decrypt"}{$key}{"100Mb"}{th}.")],\n";
+	print "[".$key."], [".$hash{"Encrypt"}{$key}{"100B"}{time}."\\ (".$hash{"Encrypt"}{$key}{"100B"}{th}.")], [".
+	$hash{"Encrypt"}{$key}{"10KB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"10KB"}{th}.")], [".
+	$hash{"Encrypt"}{$key}{"1MB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"1MB"}{th}.")], [".
+	$hash{"Encrypt"}{$key}{"100MB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"100MB"}{th}.")], [".
+	$hash{"Encrypt"}{$key}{"1GB"}{time}."\\ (".$hash{"Encrypt"}{$key}{"1GB"}{th}.")],\n";
 }
