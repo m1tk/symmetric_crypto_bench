@@ -9,7 +9,8 @@ set xtics font ",15"
 set ytics font ",15"
 set key outside bottom center maxrows 7 font ",16"
 
-set xrange [0:0.05]
+set xrange [0:0.01]
+set yrange [0:4500]
 
 plot 'results/encrypt_OpenSSL chacha20.txt' using 2:1 with linespoints title 'OpenSSL chacha20', \
 'results/encrypt_RustCrypto chacha20.txt' using 2:1 with linespoints title 'RustCrypto chacha20', \
@@ -56,7 +57,8 @@ set xtics font ",15"
 set ytics font ",15"
 set key outside bottom center maxrows 7 font ",16"
 
-set xrange [0:0.05]
+set xrange [0:0.01]
+set yrange [0:4500]
 
 plot 'results/decrypt_OpenSSL chacha20.txt' using 2:1 with linespoints title 'OpenSSL chacha20', \
 'results/decrypt_RustCrypto chacha20.txt' using 2:1 with linespoints title 'RustCrypto chacha20', \
