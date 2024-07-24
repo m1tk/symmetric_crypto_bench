@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"  standalone="no"?>
 <svg 
- width="1000" height="800"
- viewBox="0 0 1000 800"
+ width="1200" height="800"
+ viewBox="0 0 1200 800"
  xmlns="http://www.w3.org/2000/svg"
  xmlns:xlink="http://www.w3.org/1999/xlink"
 >
@@ -11,7 +11,7 @@
 
 <g id="gnuplot_canvas">
 
-<rect x="0" y="0" width="1000" height="800" fill="none"/>
+<rect x="0" y="0" width="1200" height="800" fill="none"/>
 <defs>
 
 	<circle id='gpDot' r='0.5' stroke-width='0.5' stroke='currentColor'/>
@@ -42,284 +42,235 @@
 <g fill="none" color="white" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,574.40 L89.92,574.40 M974.82,574.40 L965.82,574.40  '/>	<g transform="translate(72.53,579.28)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,560.00 L89.92,560.00 M574.82,560.00 L565.82,560.00  '/>	<g transform="translate(72.53,564.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 0</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,512.58 L89.92,512.58 M974.82,512.58 L965.82,512.58  '/>	<g transform="translate(72.53,517.46)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,482.57 L89.92,482.57 M574.82,482.57 L565.82,482.57  '/>	<g transform="translate(72.53,487.45)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 500</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,450.76 L89.92,450.76 M974.82,450.76 L965.82,450.76  '/>	<g transform="translate(72.53,455.64)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,405.15 L89.92,405.15 M574.82,405.15 L565.82,405.15  '/>	<g transform="translate(72.53,410.03)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 1000</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,388.94 L89.92,388.94 M974.82,388.94 L965.82,388.94  '/>	<g transform="translate(72.53,393.82)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,327.72 L89.92,327.72 M574.82,327.72 L565.82,327.72  '/>	<g transform="translate(72.53,332.60)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 1500</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,327.12 L89.92,327.12 M974.82,327.12 L965.82,327.12  '/>	<g transform="translate(72.53,332.00)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,250.29 L89.92,250.29 M574.82,250.29 L565.82,250.29  '/>	<g transform="translate(72.53,255.17)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 2000</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,265.29 L89.92,265.29 M974.82,265.29 L965.82,265.29  '/>	<g transform="translate(72.53,270.17)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,172.86 L89.92,172.86 M574.82,172.86 L565.82,172.86  '/>	<g transform="translate(72.53,177.74)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 2500</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,203.47 L89.92,203.47 M974.82,203.47 L965.82,203.47  '/>	<g transform="translate(72.53,208.35)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,95.44 L89.92,95.44 M574.82,95.44 L565.82,95.44  '/>	<g transform="translate(72.53,100.32)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 3000</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,141.65 L89.92,141.65 M974.82,141.65 L965.82,141.65  '/>	<g transform="translate(72.53,146.53)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+	<path stroke='black'  d='M80.92,18.01 L89.92,18.01 M574.82,18.01 L565.82,18.01  '/>	<g transform="translate(72.53,22.89)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
 		<text><tspan font-family="Arial" > 3500</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,79.83 L89.92,79.83 M974.82,79.83 L965.82,79.83  '/>	<g transform="translate(72.53,84.71)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
-		<text><tspan font-family="Arial" > 4000</tspan></text>
-	</g>
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,18.01 L89.92,18.01 M974.82,18.01 L965.82,18.01  '/>	<g transform="translate(72.53,22.89)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
-		<text><tspan font-family="Arial" > 4500</tspan></text>
-	</g>
-</g>
-<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,574.40 L80.92,565.40 M80.92,18.01 L80.92,27.01  '/>	<g transform="translate(80.92,597.28)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+	<path stroke='black'  d='M80.92,560.00 L80.92,551.00 M80.92,18.01 L80.92,27.01  '/>	<g transform="translate(80.92,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
 		<text><tspan font-family="Arial" > 0</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M251.19,574.40 L251.19,565.40 M251.19,18.01 L251.19,27.01  '/>	<g transform="translate(251.19,597.28)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" > 200</tspan></text>
+	<path stroke='black'  d='M179.70,560.00 L179.70,551.00 M179.70,18.01 L179.70,27.01  '/>	<g transform="translate(179.70,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 0.01</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M421.45,574.40 L421.45,565.40 M421.45,18.01 L421.45,27.01  '/>	<g transform="translate(421.45,597.28)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" > 400</tspan></text>
+	<path stroke='black'  d='M278.48,560.00 L278.48,551.00 M278.48,18.01 L278.48,27.01  '/>	<g transform="translate(278.48,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 0.02</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M591.72,574.40 L591.72,565.40 M591.72,18.01 L591.72,27.01  '/>	<g transform="translate(591.72,597.28)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" > 600</tspan></text>
+	<path stroke='black'  d='M377.26,560.00 L377.26,551.00 M377.26,18.01 L377.26,27.01  '/>	<g transform="translate(377.26,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 0.03</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M761.99,574.40 L761.99,565.40 M761.99,18.01 L761.99,27.01  '/>	<g transform="translate(761.99,597.28)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" > 800</tspan></text>
+	<path stroke='black'  d='M476.04,560.00 L476.04,551.00 M476.04,18.01 L476.04,27.01  '/>	<g transform="translate(476.04,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 0.04</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M932.25,574.40 L932.25,565.40 M932.25,18.01 L932.25,27.01  '/>	<g transform="translate(932.25,597.28)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
-		<text><tspan font-family="Arial" > 1000</tspan></text>
+	<path stroke='black'  d='M574.82,560.00 L574.82,551.00 M574.82,18.01 L574.82,27.01  '/>	<g transform="translate(574.82,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 0.05</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,18.01 L80.92,574.40 L974.82,574.40 L974.82,18.01 L80.92,18.01 Z  '/></g>
+	<path stroke='black'  d='M80.92,18.01 L80.92,560.00 L574.82,560.00 L574.82,18.01 L80.92,18.01 Z  '/></g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
-	<g id="gnuplot_plot_1" ><title>OpenSSL chacha20</title>
+	<g id="gnuplot_plot_1a" ><title>OpenSSL chacha20</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(451.67,640.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(251.67,640.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >OpenSSL chacha20</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M462.87,635.00 L516.67,635.00 M80.92,554.67 L80.93,232.24 L81.77,182.61 L166.05,262.95 L952.69,255.42  '/>	<use xlink:href='#gpPt0' transform='translate(80.92,554.67) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt0' transform='translate(80.93,232.24) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt0' transform='translate(81.77,182.61) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt0' transform='translate(166.05,262.95) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt0' transform='translate(952.69,255.42) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt0' transform='translate(489.77,635.00) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<path stroke='rgb(148,   0, 211)'  d='M262.87,635.00 L316.67,635.00 M81.86,535.29 L177.38,131.46 L574.82,128.94  '/>	<use xlink:href='#gpPt0' transform='translate(81.86,535.29) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt0' transform='translate(177.38,131.46) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt0' transform='translate(289.77,635.00) scale(4.50)' color='rgb(148,   0, 211)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_2" ><title>RustCrypto chacha20</title>
+	<g id="gnuplot_plot_2a" ><title>RustCrypto chacha20</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(451.67,664.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(251.67,664.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >RustCrypto chacha20</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 158, 115)'  d='M462.87,659.00 L516.67,659.00 M80.92,497.20 L80.93,277.93 L81.77,279.83 L166.05,286.22 L952.69,280.80  '/>	<use xlink:href='#gpPt1' transform='translate(80.92,497.20) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt1' transform='translate(80.93,277.93) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt1' transform='translate(81.77,279.83) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt1' transform='translate(166.05,286.22) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt1' transform='translate(952.69,280.80) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt1' transform='translate(489.77,659.00) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<path stroke='rgb(  0, 158, 115)'  d='M262.87,659.00 L316.67,659.00 M81.86,463.31 L177.38,188.69 L574.82,188.79  '/>	<use xlink:href='#gpPt1' transform='translate(81.86,463.31) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt1' transform='translate(177.38,188.69) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt1' transform='translate(289.77,659.00) scale(4.50)' color='rgb(  0, 158, 115)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_3" ><title>RustCrypto xchacha20</title>
+	<g id="gnuplot_plot_3a" ><title>RustCrypto xchacha20</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(451.67,688.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(251.67,688.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >RustCrypto xchacha20</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 86, 180, 233)'  d='M462.87,683.00 L516.67,683.00 M80.92,496.87 L80.93,277.78 L81.77,277.06 L166.05,282.88 L952.69,280.06  '/>	<use xlink:href='#gpPt2' transform='translate(80.92,496.87) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt2' transform='translate(80.93,277.78) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt2' transform='translate(81.77,277.06) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt2' transform='translate(166.05,282.88) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt2' transform='translate(952.69,280.06) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt2' transform='translate(489.77,683.00) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<path stroke='rgb( 86, 180, 233)'  d='M262.87,683.00 L316.67,683.00 M81.86,462.90 L177.38,188.50 L574.82,188.47  '/>	<use xlink:href='#gpPt2' transform='translate(81.86,462.90) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(177.38,188.50) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(289.77,683.00) scale(4.50)' color='rgb( 86, 180, 233)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_4" ><title>RustCrypto salsa20</title>
+	<g id="gnuplot_plot_4a" ><title>RustCrypto salsa20</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(451.67,712.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(251.67,712.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >RustCrypto salsa20</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(230, 159,   0)'  d='M462.87,707.00 L516.67,707.00 M80.92,508.25 L80.93,495.25 L81.77,494.67 L166.05,495.67 L952.69,494.76  '/>	<use xlink:href='#gpPt3' transform='translate(80.92,508.25) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt3' transform='translate(80.93,495.25) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt3' transform='translate(81.77,494.67) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt3' transform='translate(166.05,495.67) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt3' transform='translate(952.69,494.76) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt3' transform='translate(489.77,707.00) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<path stroke='rgb(230, 159,   0)'  d='M262.87,707.00 L316.67,707.00 M81.86,477.16 L177.38,460.87 L574.82,460.85  '/>	<use xlink:href='#gpPt3' transform='translate(81.86,477.16) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt3' transform='translate(177.38,460.87) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt3' transform='translate(289.77,707.00) scale(4.50)' color='rgb(230, 159,   0)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_5" ><title>RustCrypto rabbit</title>
+	<g id="gnuplot_plot_5a" ><title>RustCrypto rabbit</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(451.67,736.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(251.67,736.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >RustCrypto rabbit</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(240, 228,  66)'  d='M462.87,731.00 L516.67,731.00 M80.92,475.38 L80.93,469.86 L81.77,469.55 L166.05,471.32 L952.69,469.85  '/>	<use xlink:href='#gpPt4' transform='translate(80.92,475.38) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt4' transform='translate(80.93,469.86) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt4' transform='translate(81.77,469.55) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt4' transform='translate(166.05,471.32) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt4' transform='translate(952.69,469.85) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt4' transform='translate(489.77,731.00) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<path stroke='rgb(240, 228,  66)'  d='M262.87,731.00 L316.67,731.00 M81.86,435.99 L177.38,429.07 L574.82,429.06  '/>	<use xlink:href='#gpPt4' transform='translate(81.86,435.99) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt4' transform='translate(177.38,429.07) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt4' transform='translate(289.77,731.00) scale(4.50)' color='rgb(240, 228,  66)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_6" ><title>OpenSSL aes256-cbc</title>
+	<g id="gnuplot_plot_6a" ><title>OpenSSL aes256-cbc</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(451.67,760.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(251.67,760.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >OpenSSL aes256-cbc</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 114, 178)'  d='M462.87,755.00 L516.67,755.00 M80.92,554.66 L80.93,452.13 L81.77,446.88 L166.05,453.19 L952.69,452.40  '/>	<use xlink:href='#gpPt5' transform='translate(80.92,554.66) scale(4.50)' color='rgb(  0, 114, 178)'/>
-	<use xlink:href='#gpPt5' transform='translate(80.93,452.13) scale(4.50)' color='rgb(  0, 114, 178)'/>
-	<use xlink:href='#gpPt5' transform='translate(81.77,446.88) scale(4.50)' color='rgb(  0, 114, 178)'/>
-	<use xlink:href='#gpPt5' transform='translate(166.05,453.19) scale(4.50)' color='rgb(  0, 114, 178)'/>
-	<use xlink:href='#gpPt5' transform='translate(952.69,452.40) scale(4.50)' color='rgb(  0, 114, 178)'/>
-	<use xlink:href='#gpPt5' transform='translate(489.77,755.00) scale(4.50)' color='rgb(  0, 114, 178)'/>
+	<path stroke='rgb(  0, 114, 178)'  d='M262.87,755.00 L316.67,755.00 M81.86,535.27 L177.38,406.87 L574.82,406.61  '/>	<use xlink:href='#gpPt5' transform='translate(81.86,535.27) scale(4.50)' color='rgb(  0, 114, 178)'/>
+	<use xlink:href='#gpPt5' transform='translate(177.38,406.87) scale(4.50)' color='rgb(  0, 114, 178)'/>
+	<use xlink:href='#gpPt5' transform='translate(289.77,755.00) scale(4.50)' color='rgb(  0, 114, 178)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_7" ><title>OpenSSL aes256-ctr</title>
+	<g id="gnuplot_plot_7a" ><title>OpenSSL aes256-ctr</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(451.67,784.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(251.67,784.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >OpenSSL aes256-ctr</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(229,  30,  16)'  d='M462.87,779.00 L516.67,779.00 M80.92,553.21 L80.93,157.60 L81.77,73.36 L166.05,178.45 L952.69,168.22  '/>	<use xlink:href='#gpPt6' transform='translate(80.92,553.21) scale(4.50)' color='rgb(229,  30,  16)'/>
-	<use xlink:href='#gpPt6' transform='translate(80.93,157.60) scale(4.50)' color='rgb(229,  30,  16)'/>
-	<use xlink:href='#gpPt6' transform='translate(81.77,73.36) scale(4.50)' color='rgb(229,  30,  16)'/>
-	<use xlink:href='#gpPt6' transform='translate(166.05,178.45) scale(4.50)' color='rgb(229,  30,  16)'/>
-	<use xlink:href='#gpPt6' transform='translate(952.69,168.22) scale(4.50)' color='rgb(229,  30,  16)'/>
-	<use xlink:href='#gpPt6' transform='translate(489.77,779.00) scale(4.50)' color='rgb(229,  30,  16)'/>
+	<path stroke='rgb(229,  30,  16)'  d='M262.87,779.00 L316.67,779.00 M81.86,533.46 L177.38,37.98 L574.82,33.70  '/>	<use xlink:href='#gpPt6' transform='translate(81.86,533.46) scale(4.50)' color='rgb(229,  30,  16)'/>
+	<use xlink:href='#gpPt6' transform='translate(177.38,37.98) scale(4.50)' color='rgb(229,  30,  16)'/>
+	<use xlink:href='#gpPt6' transform='translate(289.77,779.00) scale(4.50)' color='rgb(229,  30,  16)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_8" ><title>OpenSSL camellia256-cbc</title>
+	<g id="gnuplot_plot_8a" ><title>OpenSSL camellia256-cbc</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(841.47,640.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(641.47,640.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >OpenSSL camellia256-cbc</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0,   0,   0)'  d='M852.67,635.00 L906.47,635.00 M80.92,565.20 L80.93,553.29 L81.77,553.04 L166.05,553.29 L952.69,553.26  '/>	<use xlink:href='#gpPt7' transform='translate(80.92,565.20) scale(4.50)' color='rgb(  0,   0,   0)'/>
-	<use xlink:href='#gpPt7' transform='translate(80.93,553.29) scale(4.50)' color='rgb(  0,   0,   0)'/>
-	<use xlink:href='#gpPt7' transform='translate(81.77,553.04) scale(4.50)' color='rgb(  0,   0,   0)'/>
-	<use xlink:href='#gpPt7' transform='translate(166.05,553.29) scale(4.50)' color='rgb(  0,   0,   0)'/>
-	<use xlink:href='#gpPt7' transform='translate(952.69,553.26) scale(4.50)' color='rgb(  0,   0,   0)'/>
-	<use xlink:href='#gpPt7' transform='translate(879.57,635.00) scale(4.50)' color='rgb(  0,   0,   0)'/>
+	<path stroke='rgb(  0,   0,   0)'  d='M652.67,635.00 L706.47,635.00 M81.86,548.48 L177.38,533.56 L574.82,533.55  '/>	<use xlink:href='#gpPt7' transform='translate(81.86,548.48) scale(4.50)' color='rgb(  0,   0,   0)'/>
+	<use xlink:href='#gpPt7' transform='translate(177.38,533.56) scale(4.50)' color='rgb(  0,   0,   0)'/>
+	<use xlink:href='#gpPt7' transform='translate(679.57,635.00) scale(4.50)' color='rgb(  0,   0,   0)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_9" ><title>OpenSSL chacha20poly1305</title>
+	<g id="gnuplot_plot_9a" ><title>OpenSSL chacha20poly1305</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(841.47,664.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(641.47,664.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >OpenSSL chacha20poly1305</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(148,   0, 211)'  d='M852.67,659.00 L906.47,659.00 M80.92,562.16 L80.93,339.59 L81.77,299.70 L166.05,346.14 L952.69,344.03  '/>	<use xlink:href='#gpPt8' transform='translate(80.92,562.16) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt8' transform='translate(80.93,339.59) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt8' transform='translate(81.77,299.70) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt8' transform='translate(166.05,346.14) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt8' transform='translate(952.69,344.03) scale(4.50)' color='rgb(148,   0, 211)'/>
-	<use xlink:href='#gpPt8' transform='translate(879.57,659.00) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<path stroke='rgb(148,   0, 211)'  d='M652.67,659.00 L706.47,659.00 M81.86,544.67 L177.38,265.91 L574.82,263.89  '/>	<use xlink:href='#gpPt8' transform='translate(81.86,544.67) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt8' transform='translate(177.38,265.91) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt8' transform='translate(679.57,659.00) scale(4.50)' color='rgb(148,   0, 211)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_10" ><title>RustCrypto chacha20poly1305</title>
+	<g id="gnuplot_plot_10a" ><title>RustCrypto chacha20poly1305</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(841.47,688.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(641.47,688.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >RustCrypto chacha20poly1305</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 158, 115)'  d='M852.67,683.00 L906.47,683.00 M80.92,566.20 L80.93,440.09 L81.77,417.94 L166.05,418.67 L952.69,418.99  '/>	<use xlink:href='#gpPt9' transform='translate(80.92,566.20) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt9' transform='translate(80.93,440.09) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt9' transform='translate(81.77,417.94) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt9' transform='translate(166.05,418.67) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt9' transform='translate(952.69,418.99) scale(4.50)' color='rgb(  0, 158, 115)'/>
-	<use xlink:href='#gpPt9' transform='translate(879.57,683.00) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<path stroke='rgb(  0, 158, 115)'  d='M652.67,683.00 L706.47,683.00 M81.86,549.73 L177.38,391.79 L574.82,390.67  '/>	<use xlink:href='#gpPt9' transform='translate(81.86,549.73) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt9' transform='translate(177.38,391.79) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt9' transform='translate(679.57,683.00) scale(4.50)' color='rgb(  0, 158, 115)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_11" ><title>RustCrypto xchacha20poly1305</title>
+	<g id="gnuplot_plot_11a" ><title>RustCrypto xchacha20poly1305</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(841.47,712.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(641.47,712.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >RustCrypto xchacha20poly1305</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb( 86, 180, 233)'  d='M852.67,707.00 L906.47,707.00 M80.92,567.23 L80.93,442.56 L81.77,419.05 L166.05,419.21 L952.69,419.06  '/>	<use xlink:href='#gpPt10' transform='translate(80.92,567.23) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt10' transform='translate(80.93,442.56) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt10' transform='translate(81.77,419.05) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt10' transform='translate(166.05,419.21) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt10' transform='translate(952.69,419.06) scale(4.50)' color='rgb( 86, 180, 233)'/>
-	<use xlink:href='#gpPt10' transform='translate(879.57,707.00) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<path stroke='rgb( 86, 180, 233)'  d='M652.67,707.00 L706.47,707.00 M81.86,551.02 L177.38,394.88 L574.82,393.69  '/>	<use xlink:href='#gpPt10' transform='translate(81.86,551.02) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt10' transform='translate(177.38,394.88) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt10' transform='translate(679.57,707.00) scale(4.50)' color='rgb( 86, 180, 233)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_12" ><title>OpenSSL aes256-gcm</title>
+	<g id="gnuplot_plot_12a" ><title>OpenSSL aes256-gcm</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(841.47,736.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(641.47,736.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >OpenSSL aes256-gcm</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(230, 159,   0)'  d='M852.67,731.00 L906.47,731.00 M80.92,557.97 L80.93,183.30 L81.77,71.24 L166.05,175.77 L952.69,167.41  '/>	<use xlink:href='#gpPt11' transform='translate(80.92,557.97) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt11' transform='translate(80.93,183.30) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt11' transform='translate(81.77,71.24) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt11' transform='translate(166.05,175.77) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt11' transform='translate(952.69,167.41) scale(4.50)' color='rgb(230, 159,   0)'/>
-	<use xlink:href='#gpPt11' transform='translate(879.57,731.00) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<path stroke='rgb(230, 159,   0)'  d='M652.67,731.00 L706.47,731.00 M81.86,539.42 L177.38,70.17 L574.82,64.47  '/>	<use xlink:href='#gpPt11' transform='translate(81.86,539.42) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt11' transform='translate(177.38,70.17) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt11' transform='translate(679.57,731.00) scale(4.50)' color='rgb(230, 159,   0)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_13" ><title>RustCrypto ascon128</title>
+	<g id="gnuplot_plot_13a" ><title>RustCrypto ascon128</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(841.47,760.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
+	<g transform="translate(641.47,760.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="end">
 		<text><tspan font-family="Arial" >RustCrypto ascon128</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(240, 228,  66)'  d='M852.67,755.00 L906.47,755.00 M80.92,552.26 L80.93,536.20 L81.77,535.97 L166.05,535.99 L952.69,535.99  '/>	<use xlink:href='#gpPt12' transform='translate(80.92,552.26) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt12' transform='translate(80.93,536.20) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt12' transform='translate(81.77,535.97) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt12' transform='translate(166.05,535.99) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt12' transform='translate(952.69,535.99) scale(4.50)' color='rgb(240, 228,  66)'/>
-	<use xlink:href='#gpPt12' transform='translate(879.57,755.00) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<path stroke='rgb(240, 228,  66)'  d='M652.67,755.00 L706.47,755.00 M81.86,532.27 L177.38,512.15 L574.82,512.14  '/>	<use xlink:href='#gpPt12' transform='translate(81.86,532.27) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt12' transform='translate(177.38,512.15) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt12' transform='translate(679.57,755.00) scale(4.50)' color='rgb(240, 228,  66)'/>
 </g>
 	</g>
 <g fill="none" color="white" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -329,12 +280,209 @@
 <g fill="none" color="black" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='black'  d='M80.92,18.01 L80.92,574.40 L974.82,574.40 L974.82,18.01 L80.92,18.01 Z  '/>	<g transform="translate(20.48,296.21) rotate(270.00)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="middle">
+	<path stroke='black'  d='M80.92,18.01 L80.92,560.00 L574.82,560.00 L574.82,18.01 L80.92,18.01 Z  '/>	<g transform="translate(20.48,289.01) rotate(270.00)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="middle">
 		<text><tspan font-family="Arial" >Throughput (Megabyte/Second)</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(527.87,624.60)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="middle">
+	<g transform="translate(327.87,610.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" >Input Size (Megabyte)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,560.00 L689.92,560.00 M1174.82,560.00 L1165.82,560.00  '/>	<g transform="translate(672.53,564.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 0</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,499.78 L689.92,499.78 M1174.82,499.78 L1165.82,499.78  '/>	<g transform="translate(672.53,504.66)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 500</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,439.56 L689.92,439.56 M1174.82,439.56 L1165.82,439.56  '/>	<g transform="translate(672.53,444.44)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 1000</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,379.34 L689.92,379.34 M1174.82,379.34 L1165.82,379.34  '/>	<g transform="translate(672.53,384.22)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 1500</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,319.12 L689.92,319.12 M1174.82,319.12 L1165.82,319.12  '/>	<g transform="translate(672.53,324.00)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 2000</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,258.89 L689.92,258.89 M1174.82,258.89 L1165.82,258.89  '/>	<g transform="translate(672.53,263.77)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 2500</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,198.67 L689.92,198.67 M1174.82,198.67 L1165.82,198.67  '/>	<g transform="translate(672.53,203.55)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 3000</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,138.45 L689.92,138.45 M1174.82,138.45 L1165.82,138.45  '/>	<g transform="translate(672.53,143.33)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 3500</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,78.23 L689.92,78.23 M1174.82,78.23 L1165.82,78.23  '/>	<g transform="translate(672.53,83.11)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 4000</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,18.01 L689.92,18.01 M1174.82,18.01 L1165.82,18.01  '/>	<g transform="translate(672.53,22.89)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="end">
+		<text><tspan font-family="Arial" > 4500</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,560.00 L680.92,551.00 M680.92,18.01 L680.92,27.01  '/>	<g transform="translate(680.92,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" >1</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M774.62,560.00 L774.62,551.00 M774.62,18.01 L774.62,27.01  '/>	<g transform="translate(774.62,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 200</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M868.78,560.00 L868.78,551.00 M868.78,18.01 L868.78,27.01  '/>	<g transform="translate(868.78,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 400</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M962.95,560.00 L962.95,551.00 M962.95,18.01 L962.95,27.01  '/>	<g transform="translate(962.95,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 600</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M1057.11,560.00 L1057.11,551.00 M1057.11,18.01 L1057.11,27.01  '/>	<g transform="translate(1057.11,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 800</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M1151.28,560.00 L1151.28,551.00 M1151.28,18.01 L1151.28,27.01  '/>	<g transform="translate(1151.28,582.88)" stroke="none" fill="black" font-family="Arial" font-size="15.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" > 1000</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,18.01 L680.92,560.00 L1174.82,560.00 L1174.82,18.01 L680.92,18.01 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+	<g id="gnuplot_plot_1b" ><title>OpenSSL chacha20</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(148,   0, 211)'  d='M680.92,178.35 L727.53,256.61 L1162.58,249.28  '/>	<use xlink:href='#gpPt0' transform='translate(680.92,178.35) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt0' transform='translate(727.53,256.61) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt0' transform='translate(1162.58,249.28) scale(4.50)' color='rgb(148,   0, 211)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_2b" ><title>RustCrypto chacha20</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(  0, 158, 115)'  d='M680.92,273.05 L727.53,279.28 L1162.58,274.00  '/>	<use xlink:href='#gpPt1' transform='translate(680.92,273.05) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt1' transform='translate(727.53,279.28) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt1' transform='translate(1162.58,274.00) scale(4.50)' color='rgb(  0, 158, 115)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_3b" ><title>RustCrypto xchacha20</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 86, 180, 233)'  d='M680.92,270.35 L727.53,276.03 L1162.58,273.28  '/>	<use xlink:href='#gpPt2' transform='translate(680.92,270.35) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(727.53,276.03) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt2' transform='translate(1162.58,273.28) scale(4.50)' color='rgb( 86, 180, 233)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_4b" ><title>RustCrypto salsa20</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(230, 159,   0)'  d='M680.92,482.33 L727.53,483.31 L1162.58,482.42  '/>	<use xlink:href='#gpPt3' transform='translate(680.92,482.33) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt3' transform='translate(727.53,483.31) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt3' transform='translate(1162.58,482.42) scale(4.50)' color='rgb(230, 159,   0)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_5b" ><title>RustCrypto rabbit</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(240, 228,  66)'  d='M680.92,457.87 L727.53,459.59 L1162.58,458.16  '/>	<use xlink:href='#gpPt4' transform='translate(680.92,457.87) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt4' transform='translate(727.53,459.59) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt4' transform='translate(1162.58,458.16) scale(4.50)' color='rgb(240, 228,  66)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_6b" ><title>OpenSSL aes256-cbc</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(  0, 114, 178)'  d='M680.92,435.78 L727.53,441.92 L1162.58,441.15  '/>	<use xlink:href='#gpPt5' transform='translate(680.92,435.78) scale(4.50)' color='rgb(  0, 114, 178)'/>
+	<use xlink:href='#gpPt5' transform='translate(727.53,441.92) scale(4.50)' color='rgb(  0, 114, 178)'/>
+	<use xlink:href='#gpPt5' transform='translate(1162.58,441.15) scale(4.50)' color='rgb(  0, 114, 178)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_7b" ><title>OpenSSL aes256-ctr</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(229,  30,  16)'  d='M680.92,71.92 L727.53,174.30 L1162.58,164.34  '/>	<use xlink:href='#gpPt6' transform='translate(680.92,71.92) scale(4.50)' color='rgb(229,  30,  16)'/>
+	<use xlink:href='#gpPt6' transform='translate(727.53,174.30) scale(4.50)' color='rgb(229,  30,  16)'/>
+	<use xlink:href='#gpPt6' transform='translate(1162.58,164.34) scale(4.50)' color='rgb(229,  30,  16)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_8b" ><title>OpenSSL camellia256-cbc</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(  0,   0,   0)'  d='M680.92,539.19 L727.53,539.43 L1162.58,539.41  '/>	<use xlink:href='#gpPt7' transform='translate(680.92,539.19) scale(4.50)' color='rgb(  0,   0,   0)'/>
+	<use xlink:href='#gpPt7' transform='translate(727.53,539.43) scale(4.50)' color='rgb(  0,   0,   0)'/>
+	<use xlink:href='#gpPt7' transform='translate(1162.58,539.41) scale(4.50)' color='rgb(  0,   0,   0)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_9b" ><title>OpenSSL chacha20poly1305</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(148,   0, 211)'  d='M680.92,292.40 L727.53,337.64 L1162.58,335.60  '/>	<use xlink:href='#gpPt8' transform='translate(680.92,292.40) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt8' transform='translate(727.53,337.64) scale(4.50)' color='rgb(148,   0, 211)'/>
+	<use xlink:href='#gpPt8' transform='translate(1162.58,335.60) scale(4.50)' color='rgb(148,   0, 211)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_10b" ><title>RustCrypto chacha20poly1305</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(  0, 158, 115)'  d='M680.92,407.59 L727.53,408.30 L1162.58,408.61  '/>	<use xlink:href='#gpPt9' transform='translate(680.92,407.59) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt9' transform='translate(727.53,408.30) scale(4.50)' color='rgb(  0, 158, 115)'/>
+	<use xlink:href='#gpPt9' transform='translate(1162.58,408.61) scale(4.50)' color='rgb(  0, 158, 115)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_11b" ><title>RustCrypto xchacha20poly1305</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 86, 180, 233)'  d='M680.92,408.67 L727.53,408.83 L1162.58,408.68  '/>	<use xlink:href='#gpPt10' transform='translate(680.92,408.67) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt10' transform='translate(727.53,408.83) scale(4.50)' color='rgb( 86, 180, 233)'/>
+	<use xlink:href='#gpPt10' transform='translate(1162.58,408.68) scale(4.50)' color='rgb( 86, 180, 233)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_12b" ><title>OpenSSL aes256-gcm</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(230, 159,   0)'  d='M680.92,69.86 L727.53,171.69 L1162.58,163.55  '/>	<use xlink:href='#gpPt11' transform='translate(680.92,69.86) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt11' transform='translate(727.53,171.69) scale(4.50)' color='rgb(230, 159,   0)'/>
+	<use xlink:href='#gpPt11' transform='translate(1162.58,163.55) scale(4.50)' color='rgb(230, 159,   0)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_13b" ><title>RustCrypto ascon128</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(240, 228,  66)'  d='M680.92,522.57 L727.53,522.58 L1162.58,522.58  '/>	<use xlink:href='#gpPt12' transform='translate(680.92,522.57) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt12' transform='translate(727.53,522.58) scale(4.50)' color='rgb(240, 228,  66)'/>
+	<use xlink:href='#gpPt12' transform='translate(1162.58,522.58) scale(4.50)' color='rgb(240, 228,  66)'/>
+</g>
+	</g>
+<g fill="none" color="white" stroke="rgb(240, 228,  66)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M680.92,18.01 L680.92,560.00 L1174.82,560.00 L1174.82,18.01 L680.92,18.01 Z  '/>	<g transform="translate(620.48,289.01) rotate(270.00)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="middle">
+		<text><tspan font-family="Arial" >Throughput (Megabyte/Second)</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(927.87,610.20)" stroke="none" fill="black" font-family="Arial" font-size="16.00"  text-anchor="middle">
 		<text><tspan font-family="Arial" >Input Size (Megabyte)</tspan></text>
 	</g>
 </g>
