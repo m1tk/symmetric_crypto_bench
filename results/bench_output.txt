@@ -1,0 +1,1018 @@
+   Compiling symmetric_crypto_bench v0.1.0 (/tmp/symmetric_crypto_bench)
+    Finished `bench` profile [optimized] target(s) in 2.25s
+Gnuplot not found, using plotters backend
+Benchmarking Encrypt 100B/OpenSSL chacha20
+Benchmarking Encrypt 100B/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/OpenSSL chacha20: Collecting 100 samples in estimated 5.0014 s (8.4M iterations)
+Benchmarking Encrypt 100B/OpenSSL chacha20: Analyzing
+Encrypt 100B/OpenSSL chacha20
+                        time:   [597.25 ns 597.64 ns 598.17 ns]
+                        thrpt:  [159.43 MiB/s 159.57 MiB/s 159.68 MiB/s]
+Benchmarking Encrypt 100B/RustCrypto chacha20
+Benchmarking Encrypt 100B/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/RustCrypto chacha20: Collecting 100 samples in estimated 5.0008 s (32M iterations)
+Benchmarking Encrypt 100B/RustCrypto chacha20: Analyzing
+Encrypt 100B/RustCrypto chacha20
+                        time:   [152.37 ns 152.74 ns 153.15 ns]
+                        thrpt:  [622.70 MiB/s 624.38 MiB/s 625.89 MiB/s]
+Benchmarking Encrypt 100B/RustCrypto xchacha20
+Benchmarking Encrypt 100B/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/RustCrypto xchacha20: Collecting 100 samples in estimated 5.0002 s (33M iterations)
+Benchmarking Encrypt 100B/RustCrypto xchacha20: Analyzing
+Encrypt 100B/RustCrypto xchacha20
+                        time:   [152.03 ns 152.09 ns 152.17 ns]
+                        thrpt:  [626.71 MiB/s 627.04 MiB/s 627.28 MiB/s]
+Benchmarking Encrypt 100B/RustCrypto salsa20
+Benchmarking Encrypt 100B/RustCrypto salsa20: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/RustCrypto salsa20: Collecting 100 samples in estimated 5.0004 s (28M iterations)
+Benchmarking Encrypt 100B/RustCrypto salsa20: Analyzing
+Encrypt 100B/RustCrypto salsa20
+                        time:   [177.88 ns 178.26 ns 178.71 ns]
+                        thrpt:  [533.65 MiB/s 534.98 MiB/s 536.15 MiB/s]
+Benchmarking Encrypt 100B/RustCrypto rabbit
+Benchmarking Encrypt 100B/RustCrypto rabbit: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/RustCrypto rabbit: Collecting 100 samples in estimated 5.0002 s (42M iterations)
+Benchmarking Encrypt 100B/RustCrypto rabbit: Analyzing
+Encrypt 100B/RustCrypto rabbit
+                        time:   [119.03 ns 119.08 ns 119.16 ns]
+                        thrpt:  [800.35 MiB/s 800.84 MiB/s 801.21 MiB/s]
+Benchmarking Encrypt 100B/OpenSSL aes256-cbc
+Benchmarking Encrypt 100B/OpenSSL aes256-cbc: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/OpenSSL aes256-cbc: Collecting 100 samples in estimated 5.0002 s (8.4M iterations)
+Benchmarking Encrypt 100B/OpenSSL aes256-cbc: Analyzing
+Encrypt 100B/OpenSSL aes256-cbc
+                        time:   [596.40 ns 597.28 ns 598.35 ns]
+                        thrpt:  [159.38 MiB/s 159.67 MiB/s 159.91 MiB/s]
+Benchmarking Encrypt 100B/OpenSSL aes256-ctr
+Benchmarking Encrypt 100B/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/OpenSSL aes256-ctr: Collecting 100 samples in estimated 5.0008 s (9.0M iterations)
+Benchmarking Encrypt 100B/OpenSSL aes256-ctr: Analyzing
+Encrypt 100B/OpenSSL aes256-ctr
+                        time:   [555.69 ns 556.41 ns 557.34 ns]
+                        thrpt:  [171.11 MiB/s 171.40 MiB/s 171.62 MiB/s]
+Benchmarking Encrypt 100B/OpenSSL camellia256-cbc
+Benchmarking Encrypt 100B/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 5.0054 s (3.9M iterations)
+Benchmarking Encrypt 100B/OpenSSL camellia256-cbc: Analyzing
+Encrypt 100B/OpenSSL camellia256-cbc
+                        time:   [1.2802 µs 1.2817 µs 1.2835 µs]
+                        thrpt:  [74.304 MiB/s 74.407 MiB/s 74.493 MiB/s]
+Benchmarking Encrypt 100B/OpenSSL chacha20poly1305
+Benchmarking Encrypt 100B/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 5.0021 s (5.2M iterations)
+Benchmarking Encrypt 100B/OpenSSL chacha20poly1305: Analyzing
+Encrypt 100B/OpenSSL chacha20poly1305
+                        time:   [962.35 ns 963.48 ns 964.88 ns]
+                        thrpt:  [98.839 MiB/s 98.982 MiB/s 99.098 MiB/s]
+Benchmarking Encrypt 100B/RustCrypto chacha20poly1305
+Benchmarking Encrypt 100B/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 5.0025 s (3.5M iterations)
+Benchmarking Encrypt 100B/RustCrypto chacha20poly1305: Analyzing
+Encrypt 100B/RustCrypto chacha20poly1305
+                        time:   [1.4347 µs 1.4375 µs 1.4407 µs]
+                        thrpt:  [66.197 MiB/s 66.344 MiB/s 66.471 MiB/s]
+Benchmarking Encrypt 100B/RustCrypto xchacha20poly1305
+Benchmarking Encrypt 100B/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 5.0040 s (3.0M iterations)
+Benchmarking Encrypt 100B/RustCrypto xchacha20poly1305: Analyzing
+Encrypt 100B/RustCrypto xchacha20poly1305
+                        time:   [1.6442 µs 1.6453 µs 1.6473 µs]
+                        thrpt:  [57.895 MiB/s 57.962 MiB/s 58.002 MiB/s]
+Benchmarking Encrypt 100B/OpenSSL aes256-gcm
+Benchmarking Encrypt 100B/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/OpenSSL aes256-gcm: Collecting 100 samples in estimated 5.0034 s (7.0M iterations)
+Benchmarking Encrypt 100B/OpenSSL aes256-gcm: Analyzing
+Encrypt 100B/OpenSSL aes256-gcm
+                        time:   [717.27 ns 717.52 ns 717.84 ns]
+                        thrpt:  [132.85 MiB/s 132.91 MiB/s 132.96 MiB/s]
+Benchmarking Encrypt 100B/RustCrypto ascon128
+Benchmarking Encrypt 100B/RustCrypto ascon128: Warming up for 3.0000 s
+Benchmarking Encrypt 100B/RustCrypto ascon128: Collecting 100 samples in estimated 5.0003 s (9.3M iterations)
+Benchmarking Encrypt 100B/RustCrypto ascon128: Analyzing
+Encrypt 100B/RustCrypto ascon128
+                        time:   [531.22 ns 532.64 ns 534.26 ns]
+                        thrpt:  [178.50 MiB/s 179.05 MiB/s 179.53 MiB/s]
+
+Benchmarking Encrypt 10KB/OpenSSL chacha20
+Benchmarking Encrypt 10KB/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/OpenSSL chacha20: Collecting 100 samples in estimated 5.0099 s (1.4M iterations)
+Benchmarking Encrypt 10KB/OpenSSL chacha20: Analyzing
+Encrypt 10KB/OpenSSL chacha20
+                        time:   [3.5242 µs 3.5289 µs 3.5347 µs]
+                        thrpt:  [2.6981 GiB/s 2.7025 GiB/s 2.7061 GiB/s]
+Benchmarking Encrypt 10KB/RustCrypto chacha20
+Benchmarking Encrypt 10KB/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/RustCrypto chacha20: Collecting 100 samples in estimated 5.0167 s (1.2M iterations)
+Benchmarking Encrypt 10KB/RustCrypto chacha20: Analyzing
+Encrypt 10KB/RustCrypto chacha20
+                        time:   [4.0676 µs 4.0728 µs 4.0795 µs]
+                        thrpt:  [2.3377 GiB/s 2.3416 GiB/s 2.3446 GiB/s]
+Benchmarking Encrypt 10KB/RustCrypto xchacha20
+Benchmarking Encrypt 10KB/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/RustCrypto xchacha20: Collecting 100 samples in estimated 5.0040 s (1.2M iterations)
+Benchmarking Encrypt 10KB/RustCrypto xchacha20: Analyzing
+Encrypt 10KB/RustCrypto xchacha20
+                        time:   [4.0677 µs 4.0706 µs 4.0744 µs]
+                        thrpt:  [2.3406 GiB/s 2.3428 GiB/s 2.3445 GiB/s]
+Benchmarking Encrypt 10KB/RustCrypto salsa20
+Benchmarking Encrypt 10KB/RustCrypto salsa20: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/RustCrypto salsa20: Collecting 100 samples in estimated 5.0686 s (333k iterations)
+Benchmarking Encrypt 10KB/RustCrypto salsa20: Analyzing
+Encrypt 10KB/RustCrypto salsa20
+                        time:   [15.212 µs 15.255 µs 15.298 µs]
+                        thrpt:  [638.38 MiB/s 640.17 MiB/s 641.96 MiB/s]
+Benchmarking Encrypt 10KB/RustCrypto rabbit
+Benchmarking Encrypt 10KB/RustCrypto rabbit: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/RustCrypto rabbit: Collecting 100 samples in estimated 5.0546 s (439k iterations)
+Benchmarking Encrypt 10KB/RustCrypto rabbit: Analyzing
+Encrypt 10KB/RustCrypto rabbit
+                        time:   [11.531 µs 11.550 µs 11.575 µs]
+                        thrpt:  [843.70 MiB/s 845.48 MiB/s 846.90 MiB/s]
+Benchmarking Encrypt 10KB/OpenSSL aes256-cbc
+Benchmarking Encrypt 10KB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 5.0356 s (510k iterations)
+Benchmarking Encrypt 10KB/OpenSSL aes256-cbc: Analyzing
+Encrypt 10KB/OpenSSL aes256-cbc
+                        time:   [9.8535 µs 9.8754 µs 9.8995 µs]
+                        thrpt:  [986.48 MiB/s 988.89 MiB/s 991.08 MiB/s]
+Benchmarking Encrypt 10KB/OpenSSL aes256-ctr
+Benchmarking Encrypt 10KB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 5.0091 s (1.7M iterations)
+Benchmarking Encrypt 10KB/OpenSSL aes256-ctr: Analyzing
+Encrypt 10KB/OpenSSL aes256-ctr
+                        time:   [2.8937 µs 2.8969 µs 2.9010 µs]
+                        thrpt:  [3.2874 GiB/s 3.2920 GiB/s 3.2957 GiB/s]
+Benchmarking Encrypt 10KB/OpenSSL camellia256-cbc
+Benchmarking Encrypt 10KB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 5.2011 s (91k iterations)
+Benchmarking Encrypt 10KB/OpenSSL camellia256-cbc: Analyzing
+Encrypt 10KB/OpenSSL camellia256-cbc
+                        time:   [57.159 µs 57.198 µs 57.248 µs]
+                        thrpt:  [170.58 MiB/s 170.73 MiB/s 170.85 MiB/s]
+Benchmarking Encrypt 10KB/OpenSSL chacha20poly1305
+Benchmarking Encrypt 10KB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 5.0113 s (975k iterations)
+Benchmarking Encrypt 10KB/OpenSSL chacha20poly1305: Analyzing
+Encrypt 10KB/OpenSSL chacha20poly1305
+                        time:   [5.1285 µs 5.1423 µs 5.1559 µs]
+                        thrpt:  [1.8497 GiB/s 1.8546 GiB/s 1.8596 GiB/s]
+Benchmarking Encrypt 10KB/RustCrypto chacha20poly1305
+Benchmarking Encrypt 10KB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 5.0171 s (561k iterations)
+Benchmarking Encrypt 10KB/RustCrypto chacha20poly1305: Analyzing
+Encrypt 10KB/RustCrypto chacha20poly1305
+                        time:   [8.9709 µs 8.9903 µs 9.0134 µs]
+                        thrpt:  [1.0581 GiB/s 1.0608 GiB/s 1.0631 GiB/s]
+Benchmarking Encrypt 10KB/RustCrypto xchacha20poly1305
+Benchmarking Encrypt 10KB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 5.0250 s (545k iterations)
+Benchmarking Encrypt 10KB/RustCrypto xchacha20poly1305: Analyzing
+Encrypt 10KB/RustCrypto xchacha20poly1305
+                        time:   [9.1440 µs 9.1585 µs 9.1760 µs]
+                        thrpt:  [1.0393 GiB/s 1.0413 GiB/s 1.0430 GiB/s]
+Benchmarking Encrypt 10KB/OpenSSL aes256-gcm
+Benchmarking Encrypt 10KB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 5.0130 s (1.6M iterations)
+Benchmarking Encrypt 10KB/OpenSSL aes256-gcm: Analyzing
+Encrypt 10KB/OpenSSL aes256-gcm
+                        time:   [3.0836 µs 3.0873 µs 3.0918 µs]
+                        thrpt:  [3.0845 GiB/s 3.0890 GiB/s 3.0928 GiB/s]
+Benchmarking Encrypt 10KB/RustCrypto ascon128
+Benchmarking Encrypt 10KB/RustCrypto ascon128: Warming up for 3.0000 s
+Benchmarking Encrypt 10KB/RustCrypto ascon128: Collecting 100 samples in estimated 5.1086 s (162k iterations)
+Benchmarking Encrypt 10KB/RustCrypto ascon128: Analyzing
+Encrypt 10KB/RustCrypto ascon128
+                        time:   [31.575 µs 31.605 µs 31.646 µs]
+                        thrpt:  [308.59 MiB/s 308.99 MiB/s 309.28 MiB/s]
+
+Benchmarking Encrypt 1MB/OpenSSL chacha20
+Benchmarking Encrypt 1MB/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/OpenSSL chacha20: Collecting 100 samples in estimated 6.3788 s (20k iterations)
+Benchmarking Encrypt 1MB/OpenSSL chacha20: Analyzing
+Encrypt 1MB/OpenSSL chacha20
+                        time:   [315.29 µs 315.58 µs 315.99 µs]
+                        thrpt:  [3.0905 GiB/s 3.0945 GiB/s 3.0974 GiB/s]
+Benchmarking Encrypt 1MB/RustCrypto chacha20
+Benchmarking Encrypt 1MB/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/RustCrypto chacha20: Collecting 100 samples in estimated 6.3744 s (15k iterations)
+Benchmarking Encrypt 1MB/RustCrypto chacha20: Analyzing
+Encrypt 1MB/RustCrypto chacha20
+                        time:   [418.67 µs 419.75 µs 420.97 µs]
+                        thrpt:  [2.3198 GiB/s 2.3266 GiB/s 2.3326 GiB/s]
+Benchmarking Encrypt 1MB/RustCrypto xchacha20
+Benchmarking Encrypt 1MB/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/RustCrypto xchacha20: Collecting 100 samples in estimated 6.3370 s (15k iterations)
+Benchmarking Encrypt 1MB/RustCrypto xchacha20: Analyzing
+Encrypt 1MB/RustCrypto xchacha20
+                        time:   [415.70 µs 415.83 µs 415.98 µs]
+                        thrpt:  [2.3476 GiB/s 2.3485 GiB/s 2.3492 GiB/s]
+Benchmarking Encrypt 1MB/RustCrypto salsa20
+Benchmarking Encrypt 1MB/RustCrypto salsa20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.9s, enable flat sampling, or reduce sample count to 50.
+Benchmarking Encrypt 1MB/RustCrypto salsa20: Collecting 100 samples in estimated 7.8590 s (5050 iterations)
+Benchmarking Encrypt 1MB/RustCrypto salsa20: Analyzing
+Encrypt 1MB/RustCrypto salsa20
+                        time:   [1.5485 ms 1.5507 ms 1.5533 ms]
+                        thrpt:  [643.79 MiB/s 644.88 MiB/s 645.79 MiB/s]
+Benchmarking Encrypt 1MB/RustCrypto rabbit
+Benchmarking Encrypt 1MB/RustCrypto rabbit: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 6.0s, enable flat sampling, or reduce sample count to 60.
+Benchmarking Encrypt 1MB/RustCrypto rabbit: Collecting 100 samples in estimated 5.9593 s (5050 iterations)
+Benchmarking Encrypt 1MB/RustCrypto rabbit: Analyzing
+Encrypt 1MB/RustCrypto rabbit
+                        time:   [1.1787 ms 1.1793 ms 1.1801 ms]
+                        thrpt:  [847.36 MiB/s 847.98 MiB/s 848.40 MiB/s]
+Benchmarking Encrypt 1MB/OpenSSL aes256-cbc
+Benchmarking Encrypt 1MB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 9.7550 s (10k iterations)
+Benchmarking Encrypt 1MB/OpenSSL aes256-cbc: Analyzing
+Encrypt 1MB/OpenSSL aes256-cbc
+                        time:   [966.99 µs 969.63 µs 972.03 µs]
+                        thrpt:  [1.0047 GiB/s 1.0072 GiB/s 1.0099 GiB/s]
+Benchmarking Encrypt 1MB/OpenSSL aes256-ctr
+Benchmarking Encrypt 1MB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 6.2203 s (25k iterations)
+Benchmarking Encrypt 1MB/OpenSSL aes256-ctr: Analyzing
+Encrypt 1MB/OpenSSL aes256-ctr
+                        time:   [246.27 µs 246.77 µs 247.37 µs]
+                        thrpt:  [3.9478 GiB/s 3.9574 GiB/s 3.9654 GiB/s]
+Benchmarking Encrypt 1MB/OpenSSL camellia256-cbc
+Benchmarking Encrypt 1MB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 5.2084 s (900 iterations)
+Benchmarking Encrypt 1MB/OpenSSL camellia256-cbc: Analyzing
+Encrypt 1MB/OpenSSL camellia256-cbc
+                        time:   [5.7818 ms 5.7874 ms 5.7940 ms]
+                        thrpt:  [172.59 MiB/s 172.79 MiB/s 172.96 MiB/s]
+Benchmarking Encrypt 1MB/OpenSSL chacha20poly1305
+Benchmarking Encrypt 1MB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 6.8521 s (15k iterations)
+Benchmarking Encrypt 1MB/OpenSSL chacha20poly1305: Analyzing
+Encrypt 1MB/OpenSSL chacha20poly1305
+                        time:   [449.92 µs 450.10 µs 450.33 µs]
+                        thrpt:  [2.1685 GiB/s 2.1697 GiB/s 2.1705 GiB/s]
+Benchmarking Encrypt 1MB/RustCrypto chacha20poly1305
+Benchmarking Encrypt 1MB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 7.9919 s (10k iterations)
+Benchmarking Encrypt 1MB/RustCrypto chacha20poly1305: Analyzing
+Encrypt 1MB/RustCrypto chacha20poly1305
+                        time:   [789.66 µs 790.21 µs 790.95 µs]
+                        thrpt:  [1.2347 GiB/s 1.2358 GiB/s 1.2367 GiB/s]
+Benchmarking Encrypt 1MB/RustCrypto xchacha20poly1305
+Benchmarking Encrypt 1MB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 7.9971 s (10k iterations)
+Benchmarking Encrypt 1MB/RustCrypto xchacha20poly1305: Analyzing
+Encrypt 1MB/RustCrypto xchacha20poly1305
+                        time:   [793.37 µs 795.92 µs 798.28 µs]
+                        thrpt:  [1.2233 GiB/s 1.2270 GiB/s 1.2309 GiB/s]
+Benchmarking Encrypt 1MB/OpenSSL aes256-gcm
+Benchmarking Encrypt 1MB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 6.2339 s (25k iterations)
+Benchmarking Encrypt 1MB/OpenSSL aes256-gcm: Analyzing
+Encrypt 1MB/OpenSSL aes256-gcm
+                        time:   [245.67 µs 245.73 µs 245.81 µs]
+                        thrpt:  [3.9729 GiB/s 3.9741 GiB/s 3.9751 GiB/s]
+Benchmarking Encrypt 1MB/RustCrypto ascon128
+Benchmarking Encrypt 1MB/RustCrypto ascon128: Warming up for 3.0000 s
+Benchmarking Encrypt 1MB/RustCrypto ascon128: Collecting 100 samples in estimated 5.1609 s (1600 iterations)
+Benchmarking Encrypt 1MB/RustCrypto ascon128: Analyzing
+Encrypt 1MB/RustCrypto ascon128
+                        time:   [3.2143 ms 3.2175 ms 3.2214 ms]
+                        thrpt:  [310.43 MiB/s 310.80 MiB/s 311.11 MiB/s]
+
+Benchmarking Encrypt 100MB/OpenSSL chacha20
+Benchmarking Encrypt 100MB/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 100MB/OpenSSL chacha20: Collecting 100 samples in estimated 7.9603 s (200 iterations)
+Benchmarking Encrypt 100MB/OpenSSL chacha20: Analyzing
+Encrypt 100MB/OpenSSL chacha20
+                        time:   [39.675 ms 39.699 ms 39.729 ms]
+                        thrpt:  [2.4580 GiB/s 2.4599 GiB/s 2.4614 GiB/s]
+Benchmarking Encrypt 100MB/RustCrypto chacha20
+Benchmarking Encrypt 100MB/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 100MB/RustCrypto chacha20: Collecting 100 samples in estimated 8.5568 s (200 iterations)
+Benchmarking Encrypt 100MB/RustCrypto chacha20: Analyzing
+Encrypt 100MB/RustCrypto chacha20
+                        time:   [42.900 ms 42.905 ms 42.909 ms]
+                        thrpt:  [2.2759 GiB/s 2.2761 GiB/s 2.2764 GiB/s]
+Benchmarking Encrypt 100MB/RustCrypto xchacha20
+Benchmarking Encrypt 100MB/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Encrypt 100MB/RustCrypto xchacha20: Collecting 100 samples in estimated 8.4660 s (200 iterations)
+Benchmarking Encrypt 100MB/RustCrypto xchacha20: Analyzing
+Encrypt 100MB/RustCrypto xchacha20
+                        time:   [42.307 ms 42.413 ms 42.518 ms]
+                        thrpt:  [2.2968 GiB/s 2.3025 GiB/s 2.3083 GiB/s]
+Benchmarking Encrypt 100MB/RustCrypto salsa20
+Benchmarking Encrypt 100MB/RustCrypto salsa20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 15.8s, or reduce sample count to 30.
+Benchmarking Encrypt 100MB/RustCrypto salsa20: Collecting 100 samples in estimated 15.808 s (100 iterations)
+Benchmarking Encrypt 100MB/RustCrypto salsa20: Analyzing
+Encrypt 100MB/RustCrypto salsa20
+                        time:   [156.73 ms 157.05 ms 157.35 ms]
+                        thrpt:  [635.55 MiB/s 636.76 MiB/s 638.03 MiB/s]
+Benchmarking Encrypt 100MB/RustCrypto rabbit
+Benchmarking Encrypt 100MB/RustCrypto rabbit: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 12.0s, or reduce sample count to 40.
+Benchmarking Encrypt 100MB/RustCrypto rabbit: Collecting 100 samples in estimated 12.038 s (100 iterations)
+Benchmarking Encrypt 100MB/RustCrypto rabbit: Analyzing
+Encrypt 100MB/RustCrypto rabbit
+                        time:   [119.75 ms 119.95 ms 120.12 ms]
+                        thrpt:  [832.49 MiB/s 833.71 MiB/s 835.05 MiB/s]
+Benchmarking Encrypt 100MB/OpenSSL aes256-cbc
+Benchmarking Encrypt 100MB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 10.2s, or reduce sample count to 40.
+Benchmarking Encrypt 100MB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 10.206 s (100 iterations)
+Benchmarking Encrypt 100MB/OpenSSL aes256-cbc: Analyzing
+Encrypt 100MB/OpenSSL aes256-cbc
+                        time:   [101.84 ms 102.00 ms 102.18 ms]
+                        thrpt:  [978.67 MiB/s 980.36 MiB/s 981.95 MiB/s]
+Benchmarking Encrypt 100MB/OpenSSL aes256-ctr
+Benchmarking Encrypt 100MB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Encrypt 100MB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 6.2482 s (200 iterations)
+Benchmarking Encrypt 100MB/OpenSSL aes256-ctr: Analyzing
+Encrypt 100MB/OpenSSL aes256-ctr
+                        time:   [31.172 ms 31.227 ms 31.284 ms]
+                        thrpt:  [3.1216 GiB/s 3.1273 GiB/s 3.1328 GiB/s]
+Benchmarking Encrypt 100MB/OpenSSL camellia256-cbc
+Benchmarking Encrypt 100MB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 58.6s, or reduce sample count to 10.
+Benchmarking Encrypt 100MB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 58.614 s (100 iterations)
+Benchmarking Encrypt 100MB/OpenSSL camellia256-cbc: Analyzing
+Encrypt 100MB/OpenSSL camellia256-cbc
+                        time:   [584.91 ms 585.62 ms 586.39 ms]
+                        thrpt:  [170.54 MiB/s 170.76 MiB/s 170.97 MiB/s]
+Benchmarking Encrypt 100MB/OpenSSL chacha20poly1305
+Benchmarking Encrypt 100MB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.5s, or reduce sample count to 90.
+Benchmarking Encrypt 100MB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 5.4612 s (100 iterations)
+Benchmarking Encrypt 100MB/OpenSSL chacha20poly1305: Analyzing
+Encrypt 100MB/OpenSSL chacha20poly1305
+                        time:   [54.128 ms 54.167 ms 54.214 ms]
+                        thrpt:  [1.8013 GiB/s 1.8029 GiB/s 1.8042 GiB/s]
+Benchmarking Encrypt 100MB/RustCrypto chacha20poly1305
+Benchmarking Encrypt 100MB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 8.0s, or reduce sample count to 60.
+Benchmarking Encrypt 100MB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 7.9606 s (100 iterations)
+Benchmarking Encrypt 100MB/RustCrypto chacha20poly1305: Analyzing
+Encrypt 100MB/RustCrypto chacha20poly1305
+                        time:   [79.319 ms 79.393 ms 79.483 ms]
+                        thrpt:  [1.2286 GiB/s 1.2300 GiB/s 1.2312 GiB/s]
+Benchmarking Encrypt 100MB/RustCrypto xchacha20poly1305
+Benchmarking Encrypt 100MB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.9s, or reduce sample count to 60.
+Benchmarking Encrypt 100MB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 7.9307 s (100 iterations)
+Benchmarking Encrypt 100MB/RustCrypto xchacha20poly1305: Analyzing
+Encrypt 100MB/RustCrypto xchacha20poly1305
+                        time:   [79.521 ms 79.673 ms 79.835 ms]
+                        thrpt:  [1.2232 GiB/s 1.2257 GiB/s 1.2281 GiB/s]
+Benchmarking Encrypt 100MB/OpenSSL aes256-gcm
+Benchmarking Encrypt 100MB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Encrypt 100MB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 6.2845 s (200 iterations)
+Benchmarking Encrypt 100MB/OpenSSL aes256-gcm: Analyzing
+Encrypt 100MB/OpenSSL aes256-gcm
+                        time:   [30.998 ms 31.017 ms 31.039 ms]
+                        thrpt:  [3.1462 GiB/s 3.1485 GiB/s 3.1504 GiB/s]
+Benchmarking Encrypt 100MB/RustCrypto ascon128
+Benchmarking Encrypt 100MB/RustCrypto ascon128: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 32.4s, or reduce sample count to 10.
+Benchmarking Encrypt 100MB/RustCrypto ascon128: Collecting 100 samples in estimated 32.367 s (100 iterations)
+Benchmarking Encrypt 100MB/RustCrypto ascon128: Analyzing
+Encrypt 100MB/RustCrypto ascon128
+                        time:   [321.56 ms 321.89 ms 322.25 ms]
+                        thrpt:  [310.32 MiB/s 310.67 MiB/s 310.98 MiB/s]
+
+Benchmarking Encrypt 1GB/OpenSSL chacha20
+Benchmarking Encrypt 1GB/OpenSSL chacha20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 40.0s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/OpenSSL chacha20: Collecting 100 samples in estimated 39.951 s (100 iterations)
+Benchmarking Encrypt 1GB/OpenSSL chacha20: Analyzing
+Encrypt 1GB/OpenSSL chacha20
+                        time:   [396.61 ms 396.92 ms 397.28 ms]
+                        thrpt:  [2.5171 GiB/s 2.5194 GiB/s 2.5214 GiB/s]
+Benchmarking Encrypt 1GB/RustCrypto chacha20
+Benchmarking Encrypt 1GB/RustCrypto chacha20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 49.6s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/RustCrypto chacha20: Collecting 100 samples in estimated 49.583 s (100 iterations)
+Benchmarking Encrypt 1GB/RustCrypto chacha20: Analyzing
+Encrypt 1GB/RustCrypto chacha20
+                        time:   [430.53 ms 431.24 ms 431.99 ms]
+                        thrpt:  [2.3148 GiB/s 2.3189 GiB/s 2.3227 GiB/s]
+Benchmarking Encrypt 1GB/RustCrypto xchacha20
+Benchmarking Encrypt 1GB/RustCrypto xchacha20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 43.0s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/RustCrypto xchacha20: Collecting 100 samples in estimated 43.032 s (100 iterations)
+Benchmarking Encrypt 1GB/RustCrypto xchacha20: Analyzing
+Encrypt 1GB/RustCrypto xchacha20
+                        time:   [429.60 ms 430.14 ms 430.74 ms]
+                        thrpt:  [2.3216 GiB/s 2.3248 GiB/s 2.3277 GiB/s]
+Benchmarking Encrypt 1GB/RustCrypto salsa20
+Benchmarking Encrypt 1GB/RustCrypto salsa20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 158.9s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/RustCrypto salsa20: Collecting 100 samples in estimated 158.94 s (100 iterations)
+Benchmarking Encrypt 1GB/RustCrypto salsa20: Analyzing
+Encrypt 1GB/RustCrypto salsa20
+                        time:   [1.5881 s 1.5898 s 1.5916 s]
+                        thrpt:  [643.36 MiB/s 644.10 MiB/s 644.79 MiB/s]
+Benchmarking Encrypt 1GB/RustCrypto rabbit
+Benchmarking Encrypt 1GB/RustCrypto rabbit: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 121.2s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/RustCrypto rabbit: Collecting 100 samples in estimated 121.20 s (100 iterations)
+Benchmarking Encrypt 1GB/RustCrypto rabbit: Analyzing
+Encrypt 1GB/RustCrypto rabbit
+                        time:   [1.2095 s 1.2111 s 1.2128 s]
+                        thrpt:  [844.35 MiB/s 845.55 MiB/s 846.64 MiB/s]
+Benchmarking Encrypt 1GB/OpenSSL aes256-cbc
+Benchmarking Encrypt 1GB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 104.5s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 104.52 s (100 iterations)
+Benchmarking Encrypt 1GB/OpenSSL aes256-cbc: Analyzing
+Encrypt 1GB/OpenSSL aes256-cbc
+                        time:   [1.0367 s 1.0378 s 1.0389 s]
+                        thrpt:  [985.64 MiB/s 986.75 MiB/s 987.79 MiB/s]
+Benchmarking Encrypt 1GB/OpenSSL aes256-ctr
+Benchmarking Encrypt 1GB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 31.1s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 31.096 s (100 iterations)
+Benchmarking Encrypt 1GB/OpenSSL aes256-ctr: Analyzing
+Encrypt 1GB/OpenSSL aes256-ctr
+                        time:   [311.28 ms 311.71 ms 312.17 ms]
+                        thrpt:  [3.2033 GiB/s 3.2081 GiB/s 3.2126 GiB/s]
+Benchmarking Encrypt 1GB/OpenSSL camellia256-cbc
+Benchmarking Encrypt 1GB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 598.3s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 598.31 s (100 iterations)
+Benchmarking Encrypt 1GB/OpenSSL camellia256-cbc: Analyzing
+Encrypt 1GB/OpenSSL camellia256-cbc
+                        time:   [5.9857 s 5.9899 s 5.9946 s]
+                        thrpt:  [170.82 MiB/s 170.95 MiB/s 171.08 MiB/s]
+Benchmarking Encrypt 1GB/OpenSSL chacha20poly1305
+Benchmarking Encrypt 1GB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 54.7s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 54.747 s (100 iterations)
+Benchmarking Encrypt 1GB/OpenSSL chacha20poly1305: Analyzing
+Encrypt 1GB/OpenSSL chacha20poly1305
+                        time:   [548.85 ms 549.60 ms 550.40 ms]
+                        thrpt:  [1.8169 GiB/s 1.8195 GiB/s 1.8220 GiB/s]
+Benchmarking Encrypt 1GB/RustCrypto chacha20poly1305
+Benchmarking Encrypt 1GB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 81.3s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 81.264 s (100 iterations)
+Benchmarking Encrypt 1GB/RustCrypto chacha20poly1305: Analyzing
+Encrypt 1GB/RustCrypto chacha20poly1305
+                        time:   [813.61 ms 814.67 ms 815.84 ms]
+                        thrpt:  [1.2257 GiB/s 1.2275 GiB/s 1.2291 GiB/s]
+Benchmarking Encrypt 1GB/RustCrypto xchacha20poly1305
+Benchmarking Encrypt 1GB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 81.6s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 81.592 s (100 iterations)
+Benchmarking Encrypt 1GB/RustCrypto xchacha20poly1305: Analyzing
+Encrypt 1GB/RustCrypto xchacha20poly1305
+                        time:   [813.80 ms 815.08 ms 816.47 ms]
+                        thrpt:  [1.2248 GiB/s 1.2269 GiB/s 1.2288 GiB/s]
+Benchmarking Encrypt 1GB/OpenSSL aes256-gcm
+Benchmarking Encrypt 1GB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 31.1s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 31.127 s (100 iterations)
+Benchmarking Encrypt 1GB/OpenSSL aes256-gcm: Analyzing
+Encrypt 1GB/OpenSSL aes256-gcm
+                        time:   [310.72 ms 311.09 ms 311.51 ms]
+                        thrpt:  [3.2102 GiB/s 3.2145 GiB/s 3.2184 GiB/s]
+Benchmarking Encrypt 1GB/RustCrypto ascon128
+Benchmarking Encrypt 1GB/RustCrypto ascon128: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 330.3s, or reduce sample count to 10.
+Benchmarking Encrypt 1GB/RustCrypto ascon128: Collecting 100 samples in estimated 330.27 s (100 iterations)
+Benchmarking Encrypt 1GB/RustCrypto ascon128: Analyzing
+Encrypt 1GB/RustCrypto ascon128
+                        time:   [3.2939 s 3.2961 s 3.2985 s]
+                        thrpt:  [310.45 MiB/s 310.67 MiB/s 310.88 MiB/s]
+
+Benchmarking Decrypt 100B/OpenSSL chacha20
+Benchmarking Decrypt 100B/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/OpenSSL chacha20: Collecting 100 samples in estimated 5.0012 s (8.3M iterations)
+Benchmarking Decrypt 100B/OpenSSL chacha20: Analyzing
+Decrypt 100B/OpenSSL chacha20
+                        time:   [598.39 ns 600.23 ns 601.92 ns]
+                        thrpt:  [158.44 MiB/s 158.89 MiB/s 159.37 MiB/s]
+Benchmarking Decrypt 100B/RustCrypto chacha20
+Benchmarking Decrypt 100B/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/RustCrypto chacha20: Collecting 100 samples in estimated 5.0004 s (28M iterations)
+Benchmarking Decrypt 100B/RustCrypto chacha20: Analyzing
+Decrypt 100B/RustCrypto chacha20
+                        time:   [175.27 ns 175.36 ns 175.49 ns]
+                        thrpt:  [543.42 MiB/s 543.83 MiB/s 544.11 MiB/s]
+Benchmarking Decrypt 100B/RustCrypto xchacha20
+Benchmarking Decrypt 100B/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/RustCrypto xchacha20: Collecting 100 samples in estimated 5.0002 s (28M iterations)
+Benchmarking Decrypt 100B/RustCrypto xchacha20: Analyzing
+Decrypt 100B/RustCrypto xchacha20
+                        time:   [177.27 ns 177.43 ns 177.64 ns]
+                        thrpt:  [536.87 MiB/s 537.50 MiB/s 537.99 MiB/s]
+Benchmarking Decrypt 100B/RustCrypto salsa20
+Benchmarking Decrypt 100B/RustCrypto salsa20: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/RustCrypto salsa20: Collecting 100 samples in estimated 5.0007 s (24M iterations)
+Benchmarking Decrypt 100B/RustCrypto salsa20: Analyzing
+Decrypt 100B/RustCrypto salsa20
+                        time:   [210.00 ns 210.28 ns 210.66 ns]
+                        thrpt:  [452.72 MiB/s 453.52 MiB/s 454.14 MiB/s]
+Benchmarking Decrypt 100B/RustCrypto rabbit
+Benchmarking Decrypt 100B/RustCrypto rabbit: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/RustCrypto rabbit: Collecting 100 samples in estimated 5.0005 s (42M iterations)
+Benchmarking Decrypt 100B/RustCrypto rabbit: Analyzing
+Decrypt 100B/RustCrypto rabbit
+                        time:   [118.96 ns 119.00 ns 119.04 ns]
+                        thrpt:  [801.13 MiB/s 801.42 MiB/s 801.66 MiB/s]
+Benchmarking Decrypt 100B/OpenSSL aes256-cbc
+Benchmarking Decrypt 100B/OpenSSL aes256-cbc: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/OpenSSL aes256-cbc: Collecting 100 samples in estimated 5.0005 s (8.5M iterations)
+Benchmarking Decrypt 100B/OpenSSL aes256-cbc: Analyzing
+Decrypt 100B/OpenSSL aes256-cbc
+                        time:   [586.90 ns 588.61 ns 590.29 ns]
+                        thrpt:  [161.56 MiB/s 162.02 MiB/s 162.49 MiB/s]
+Benchmarking Decrypt 100B/OpenSSL aes256-ctr
+Benchmarking Decrypt 100B/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/OpenSSL aes256-ctr: Collecting 100 samples in estimated 5.0000 s (8.9M iterations)
+Benchmarking Decrypt 100B/OpenSSL aes256-ctr: Analyzing
+Decrypt 100B/OpenSSL aes256-ctr
+                        time:   [553.19 ns 553.71 ns 554.39 ns]
+                        thrpt:  [172.02 MiB/s 172.23 MiB/s 172.40 MiB/s]
+Benchmarking Decrypt 100B/OpenSSL camellia256-cbc
+Benchmarking Decrypt 100B/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 5.0011 s (3.8M iterations)
+Benchmarking Decrypt 100B/OpenSSL camellia256-cbc: Analyzing
+Decrypt 100B/OpenSSL camellia256-cbc
+                        time:   [1.3018 µs 1.3024 µs 1.3032 µs]
+                        thrpt:  [73.181 MiB/s 73.223 MiB/s 73.258 MiB/s]
+Benchmarking Decrypt 100B/OpenSSL chacha20poly1305
+Benchmarking Decrypt 100B/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 5.0023 s (5.0M iterations)
+Benchmarking Decrypt 100B/OpenSSL chacha20poly1305: Analyzing
+Decrypt 100B/OpenSSL chacha20poly1305
+                        time:   [993.69 ns 995.62 ns 997.99 ns]
+                        thrpt:  [95.559 MiB/s 95.787 MiB/s 95.973 MiB/s]
+Benchmarking Decrypt 100B/RustCrypto chacha20poly1305
+Benchmarking Decrypt 100B/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 5.0011 s (3.4M iterations)
+Benchmarking Decrypt 100B/RustCrypto chacha20poly1305: Analyzing
+Decrypt 100B/RustCrypto chacha20poly1305
+                        time:   [1.4458 µs 1.4466 µs 1.4477 µs]
+                        thrpt:  [65.876 MiB/s 65.927 MiB/s 65.963 MiB/s]
+Benchmarking Decrypt 100B/RustCrypto xchacha20poly1305
+Benchmarking Decrypt 100B/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 5.0038 s (3.0M iterations)
+Benchmarking Decrypt 100B/RustCrypto xchacha20poly1305: Analyzing
+Decrypt 100B/RustCrypto xchacha20poly1305
+                        time:   [1.6774 µs 1.6821 µs 1.6868 µs]
+                        thrpt:  [56.537 MiB/s 56.696 MiB/s 56.853 MiB/s]
+Benchmarking Decrypt 100B/OpenSSL aes256-gcm
+Benchmarking Decrypt 100B/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/OpenSSL aes256-gcm: Collecting 100 samples in estimated 5.0010 s (6.9M iterations)
+Benchmarking Decrypt 100B/OpenSSL aes256-gcm: Analyzing
+Decrypt 100B/OpenSSL aes256-gcm
+                        time:   [727.28 ns 727.75 ns 728.36 ns]
+                        thrpt:  [130.93 MiB/s 131.05 MiB/s 131.13 MiB/s]
+Benchmarking Decrypt 100B/RustCrypto ascon128
+Benchmarking Decrypt 100B/RustCrypto ascon128: Warming up for 3.0000 s
+Benchmarking Decrypt 100B/RustCrypto ascon128: Collecting 100 samples in estimated 5.0021 s (11M iterations)
+Benchmarking Decrypt 100B/RustCrypto ascon128: Analyzing
+Decrypt 100B/RustCrypto ascon128
+                        time:   [435.87 ns 435.97 ns 436.10 ns]
+                        thrpt:  [218.68 MiB/s 218.75 MiB/s 218.80 MiB/s]
+
+Benchmarking Decrypt 10KB/OpenSSL chacha20
+Benchmarking Decrypt 10KB/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/OpenSSL chacha20: Collecting 100 samples in estimated 5.0148 s (1.4M iterations)
+Benchmarking Decrypt 10KB/OpenSSL chacha20: Analyzing
+Decrypt 10KB/OpenSSL chacha20
+                        time:   [3.4466 µs 3.4476 µs 3.4486 µs]
+                        thrpt:  [2.7654 GiB/s 2.7662 GiB/s 2.7670 GiB/s]
+Benchmarking Decrypt 10KB/RustCrypto chacha20
+Benchmarking Decrypt 10KB/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/RustCrypto chacha20: Collecting 100 samples in estimated 5.0158 s (1.2M iterations)
+Benchmarking Decrypt 10KB/RustCrypto chacha20: Analyzing
+Decrypt 10KB/RustCrypto chacha20
+                        time:   [4.1681 µs 4.1683 µs 4.1685 µs]
+                        thrpt:  [2.2878 GiB/s 2.2879 GiB/s 2.2880 GiB/s]
+Benchmarking Decrypt 10KB/RustCrypto xchacha20
+Benchmarking Decrypt 10KB/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/RustCrypto xchacha20: Collecting 100 samples in estimated 5.0056 s (1.2M iterations)
+Benchmarking Decrypt 10KB/RustCrypto xchacha20: Analyzing
+Decrypt 10KB/RustCrypto xchacha20
+                        time:   [4.0886 µs 4.0959 µs 4.1051 µs]
+                        thrpt:  [2.3231 GiB/s 2.3284 GiB/s 2.3325 GiB/s]
+Benchmarking Decrypt 10KB/RustCrypto salsa20
+Benchmarking Decrypt 10KB/RustCrypto salsa20: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/RustCrypto salsa20: Collecting 100 samples in estimated 5.0712 s (333k iterations)
+Benchmarking Decrypt 10KB/RustCrypto salsa20: Analyzing
+Decrypt 10KB/RustCrypto salsa20
+                        time:   [15.173 µs 15.199 µs 15.232 µs]
+                        thrpt:  [641.12 MiB/s 642.52 MiB/s 643.63 MiB/s]
+Benchmarking Decrypt 10KB/RustCrypto rabbit
+Benchmarking Decrypt 10KB/RustCrypto rabbit: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/RustCrypto rabbit: Collecting 100 samples in estimated 5.0069 s (434k iterations)
+Benchmarking Decrypt 10KB/RustCrypto rabbit: Analyzing
+Decrypt 10KB/RustCrypto rabbit
+                        time:   [11.494 µs 11.501 µs 11.511 µs]
+                        thrpt:  [848.35 MiB/s 849.09 MiB/s 849.65 MiB/s]
+Benchmarking Decrypt 10KB/OpenSSL aes256-cbc
+Benchmarking Decrypt 10KB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 5.0027 s (1.7M iterations)
+Benchmarking Decrypt 10KB/OpenSSL aes256-cbc: Analyzing
+Decrypt 10KB/OpenSSL aes256-cbc
+                        time:   [2.9633 µs 2.9674 µs 2.9723 µs]
+                        thrpt:  [3.2086 GiB/s 3.2139 GiB/s 3.2183 GiB/s]
+Benchmarking Decrypt 10KB/OpenSSL aes256-ctr
+Benchmarking Decrypt 10KB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 5.0144 s (1.7M iterations)
+Benchmarking Decrypt 10KB/OpenSSL aes256-ctr: Analyzing
+Decrypt 10KB/OpenSSL aes256-ctr
+                        time:   [2.8964 µs 2.8993 µs 2.9030 µs]
+                        thrpt:  [3.2852 GiB/s 3.2893 GiB/s 3.2926 GiB/s]
+Benchmarking Decrypt 10KB/OpenSSL camellia256-cbc
+Benchmarking Decrypt 10KB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 5.1680 s (91k iterations)
+Benchmarking Decrypt 10KB/OpenSSL camellia256-cbc: Analyzing
+Decrypt 10KB/OpenSSL camellia256-cbc
+                        time:   [56.754 µs 56.772 µs 56.797 µs]
+                        thrpt:  [171.94 MiB/s 172.01 MiB/s 172.07 MiB/s]
+Benchmarking Decrypt 10KB/OpenSSL chacha20poly1305
+Benchmarking Decrypt 10KB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 5.0061 s (960k iterations)
+Benchmarking Decrypt 10KB/OpenSSL chacha20poly1305: Analyzing
+Decrypt 10KB/OpenSSL chacha20poly1305
+                        time:   [5.2287 µs 5.2413 µs 5.2546 µs]
+                        thrpt:  [1.8149 GiB/s 1.8195 GiB/s 1.8239 GiB/s]
+Benchmarking Decrypt 10KB/RustCrypto chacha20poly1305
+Benchmarking Decrypt 10KB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 5.0198 s (687k iterations)
+Benchmarking Decrypt 10KB/RustCrypto chacha20poly1305: Analyzing
+Decrypt 10KB/RustCrypto chacha20poly1305
+                        time:   [7.2245 µs 7.2337 µs 7.2454 µs]
+                        thrpt:  [1.3163 GiB/s 1.3184 GiB/s 1.3201 GiB/s]
+Benchmarking Decrypt 10KB/RustCrypto xchacha20poly1305
+Benchmarking Decrypt 10KB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 5.0364 s (677k iterations)
+Benchmarking Decrypt 10KB/RustCrypto xchacha20poly1305: Analyzing
+Decrypt 10KB/RustCrypto xchacha20poly1305
+                        time:   [7.4501 µs 7.4667 µs 7.4865 µs]
+                        thrpt:  [1.2739 GiB/s 1.2772 GiB/s 1.2801 GiB/s]
+Benchmarking Decrypt 10KB/OpenSSL aes256-gcm
+Benchmarking Decrypt 10KB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 5.0008 s (1.6M iterations)
+Benchmarking Decrypt 10KB/OpenSSL aes256-gcm: Analyzing
+Decrypt 10KB/OpenSSL aes256-gcm
+                        time:   [3.1173 µs 3.1201 µs 3.1239 µs]
+                        thrpt:  [3.0528 GiB/s 3.0566 GiB/s 3.0593 GiB/s]
+Benchmarking Decrypt 10KB/RustCrypto ascon128
+Benchmarking Decrypt 10KB/RustCrypto ascon128: Warming up for 3.0000 s
+Benchmarking Decrypt 10KB/RustCrypto ascon128: Collecting 100 samples in estimated 5.0540 s (162k iterations)
+Benchmarking Decrypt 10KB/RustCrypto ascon128: Analyzing
+Decrypt 10KB/RustCrypto ascon128
+                        time:   [31.194 µs 31.203 µs 31.215 µs]
+                        thrpt:  [312.85 MiB/s 312.97 MiB/s 313.07 MiB/s]
+
+Benchmarking Decrypt 1MB/OpenSSL chacha20
+Benchmarking Decrypt 1MB/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/OpenSSL chacha20: Collecting 100 samples in estimated 6.4641 s (20k iterations)
+Benchmarking Decrypt 1MB/OpenSSL chacha20: Analyzing
+Decrypt 1MB/OpenSSL chacha20
+                        time:   [320.82 µs 321.70 µs 322.65 µs]
+                        thrpt:  [3.0267 GiB/s 3.0357 GiB/s 3.0439 GiB/s]
+Benchmarking Decrypt 1MB/RustCrypto chacha20
+Benchmarking Decrypt 1MB/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/RustCrypto chacha20: Collecting 100 samples in estimated 6.3496 s (15k iterations)
+Benchmarking Decrypt 1MB/RustCrypto chacha20: Analyzing
+Decrypt 1MB/RustCrypto chacha20
+                        time:   [415.59 µs 415.81 µs 416.11 µs]
+                        thrpt:  [2.3469 GiB/s 2.3486 GiB/s 2.3498 GiB/s]
+Benchmarking Decrypt 1MB/RustCrypto xchacha20
+Benchmarking Decrypt 1MB/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/RustCrypto xchacha20: Collecting 100 samples in estimated 6.3290 s (15k iterations)
+Benchmarking Decrypt 1MB/RustCrypto xchacha20: Analyzing
+Decrypt 1MB/RustCrypto xchacha20
+                        time:   [419.40 µs 420.52 µs 421.63 µs]
+                        thrpt:  [2.3162 GiB/s 2.3223 GiB/s 2.3285 GiB/s]
+Benchmarking Decrypt 1MB/RustCrypto salsa20
+Benchmarking Decrypt 1MB/RustCrypto salsa20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.9s, enable flat sampling, or reduce sample count to 50.
+Benchmarking Decrypt 1MB/RustCrypto salsa20: Collecting 100 samples in estimated 7.8786 s (5050 iterations)
+Benchmarking Decrypt 1MB/RustCrypto salsa20: Analyzing
+Decrypt 1MB/RustCrypto salsa20
+                        time:   [1.5474 ms 1.5484 ms 1.5497 ms]
+                        thrpt:  [645.29 MiB/s 645.81 MiB/s 646.22 MiB/s]
+Benchmarking Decrypt 1MB/RustCrypto rabbit
+Benchmarking Decrypt 1MB/RustCrypto rabbit: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 6.0s, enable flat sampling, or reduce sample count to 60.
+Benchmarking Decrypt 1MB/RustCrypto rabbit: Collecting 100 samples in estimated 5.9881 s (5050 iterations)
+Benchmarking Decrypt 1MB/RustCrypto rabbit: Analyzing
+Decrypt 1MB/RustCrypto rabbit
+                        time:   [1.1839 ms 1.1871 ms 1.1902 ms]
+                        thrpt:  [840.20 MiB/s 842.42 MiB/s 844.64 MiB/s]
+Benchmarking Decrypt 1MB/OpenSSL aes256-cbc
+Benchmarking Decrypt 1MB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 5.0433 s (20k iterations)
+Benchmarking Decrypt 1MB/OpenSSL aes256-cbc: Analyzing
+Decrypt 1MB/OpenSSL aes256-cbc
+                        time:   [247.22 µs 247.43 µs 247.70 µs]
+                        thrpt:  [3.9425 GiB/s 3.9468 GiB/s 3.9501 GiB/s]
+Benchmarking Decrypt 1MB/OpenSSL aes256-ctr
+Benchmarking Decrypt 1MB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 6.2248 s (25k iterations)
+Benchmarking Decrypt 1MB/OpenSSL aes256-ctr: Analyzing
+Decrypt 1MB/OpenSSL aes256-ctr
+                        time:   [245.53 µs 245.75 µs 246.02 µs]
+                        thrpt:  [3.9694 GiB/s 3.9738 GiB/s 3.9774 GiB/s]
+Benchmarking Decrypt 1MB/OpenSSL camellia256-cbc
+Benchmarking Decrypt 1MB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 5.1632 s (900 iterations)
+Benchmarking Decrypt 1MB/OpenSSL camellia256-cbc: Analyzing
+Decrypt 1MB/OpenSSL camellia256-cbc
+                        time:   [5.7527 ms 5.7646 ms 5.7768 ms]
+                        thrpt:  [173.11 MiB/s 173.47 MiB/s 173.83 MiB/s]
+Benchmarking Decrypt 1MB/OpenSSL chacha20poly1305
+Benchmarking Decrypt 1MB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 6.8444 s (15k iterations)
+Benchmarking Decrypt 1MB/OpenSSL chacha20poly1305: Analyzing
+Decrypt 1MB/OpenSSL chacha20poly1305
+                        time:   [451.85 µs 452.56 µs 453.39 µs]
+                        thrpt:  [2.1539 GiB/s 2.1579 GiB/s 2.1612 GiB/s]
+Benchmarking Decrypt 1MB/RustCrypto chacha20poly1305
+Benchmarking Decrypt 1MB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 6.3890 s (10k iterations)
+Benchmarking Decrypt 1MB/RustCrypto chacha20poly1305: Analyzing
+Decrypt 1MB/RustCrypto chacha20poly1305
+                        time:   [630.65 µs 630.92 µs 631.27 µs]
+                        thrpt:  [1.5470 GiB/s 1.5478 GiB/s 1.5485 GiB/s]
+Benchmarking Decrypt 1MB/RustCrypto xchacha20poly1305
+Benchmarking Decrypt 1MB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 6.4324 s (10k iterations)
+Benchmarking Decrypt 1MB/RustCrypto xchacha20poly1305: Analyzing
+Decrypt 1MB/RustCrypto xchacha20poly1305
+                        time:   [641.28 µs 642.46 µs 643.42 µs]
+                        thrpt:  [1.5178 GiB/s 1.5200 GiB/s 1.5228 GiB/s]
+Benchmarking Decrypt 1MB/OpenSSL aes256-gcm
+Benchmarking Decrypt 1MB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 5.0022 s (20k iterations)
+Benchmarking Decrypt 1MB/OpenSSL aes256-gcm: Analyzing
+Decrypt 1MB/OpenSSL aes256-gcm
+                        time:   [247.18 µs 247.24 µs 247.32 µs]
+                        thrpt:  [3.9485 GiB/s 3.9498 GiB/s 3.9509 GiB/s]
+Benchmarking Decrypt 1MB/RustCrypto ascon128
+Benchmarking Decrypt 1MB/RustCrypto ascon128: Warming up for 3.0000 s
+Benchmarking Decrypt 1MB/RustCrypto ascon128: Collecting 100 samples in estimated 5.1315 s (1600 iterations)
+Benchmarking Decrypt 1MB/RustCrypto ascon128: Analyzing
+Decrypt 1MB/RustCrypto ascon128
+                        time:   [3.2164 ms 3.2231 ms 3.2299 ms]
+                        thrpt:  [309.61 MiB/s 310.26 MiB/s 310.90 MiB/s]
+
+Benchmarking Decrypt 100MB/OpenSSL chacha20
+Benchmarking Decrypt 100MB/OpenSSL chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 100MB/OpenSSL chacha20: Collecting 100 samples in estimated 8.0520 s (200 iterations)
+Benchmarking Decrypt 100MB/OpenSSL chacha20: Analyzing
+Decrypt 100MB/OpenSSL chacha20
+                        time:   [40.182 ms 40.208 ms 40.240 ms]
+                        thrpt:  [2.4268 GiB/s 2.4288 GiB/s 2.4304 GiB/s]
+Benchmarking Decrypt 100MB/RustCrypto chacha20
+Benchmarking Decrypt 100MB/RustCrypto chacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 100MB/RustCrypto chacha20: Collecting 100 samples in estimated 8.3951 s (200 iterations)
+Benchmarking Decrypt 100MB/RustCrypto chacha20: Analyzing
+Decrypt 100MB/RustCrypto chacha20
+                        time:   [42.383 ms 42.480 ms 42.576 ms]
+                        thrpt:  [2.2937 GiB/s 2.2989 GiB/s 2.3041 GiB/s]
+Benchmarking Decrypt 100MB/RustCrypto xchacha20
+Benchmarking Decrypt 100MB/RustCrypto xchacha20: Warming up for 3.0000 s
+Benchmarking Decrypt 100MB/RustCrypto xchacha20: Collecting 100 samples in estimated 8.4608 s (200 iterations)
+Benchmarking Decrypt 100MB/RustCrypto xchacha20: Analyzing
+Decrypt 100MB/RustCrypto xchacha20
+                        time:   [41.924 ms 41.970 ms 42.023 ms]
+                        thrpt:  [2.3239 GiB/s 2.3268 GiB/s 2.3294 GiB/s]
+Benchmarking Decrypt 100MB/RustCrypto salsa20
+Benchmarking Decrypt 100MB/RustCrypto salsa20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 15.5s, or reduce sample count to 30.
+Benchmarking Decrypt 100MB/RustCrypto salsa20: Collecting 100 samples in estimated 15.543 s (100 iterations)
+Benchmarking Decrypt 100MB/RustCrypto salsa20: Analyzing
+Decrypt 100MB/RustCrypto salsa20
+                        time:   [155.06 ms 155.28 ms 155.52 ms]
+                        thrpt:  [643.00 MiB/s 643.99 MiB/s 644.91 MiB/s]
+Benchmarking Decrypt 100MB/RustCrypto rabbit
+Benchmarking Decrypt 100MB/RustCrypto rabbit: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 11.8s, or reduce sample count to 40.
+Benchmarking Decrypt 100MB/RustCrypto rabbit: Collecting 100 samples in estimated 11.790 s (100 iterations)
+Benchmarking Decrypt 100MB/RustCrypto rabbit: Analyzing
+Decrypt 100MB/RustCrypto rabbit
+                        time:   [118.00 ms 118.17 ms 118.35 ms]
+                        thrpt:  [844.93 MiB/s 846.26 MiB/s 847.47 MiB/s]
+Benchmarking Decrypt 100MB/OpenSSL aes256-cbc
+Benchmarking Decrypt 100MB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+Benchmarking Decrypt 100MB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 6.2315 s (200 iterations)
+Benchmarking Decrypt 100MB/OpenSSL aes256-cbc: Analyzing
+Decrypt 100MB/OpenSSL aes256-cbc
+                        time:   [31.216 ms 31.272 ms 31.330 ms]
+                        thrpt:  [3.1170 GiB/s 3.1228 GiB/s 3.1284 GiB/s]
+Benchmarking Decrypt 100MB/OpenSSL aes256-ctr
+Benchmarking Decrypt 100MB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+Benchmarking Decrypt 100MB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 6.2453 s (200 iterations)
+Benchmarking Decrypt 100MB/OpenSSL aes256-ctr: Analyzing
+Decrypt 100MB/OpenSSL aes256-ctr
+                        time:   [31.098 ms 31.122 ms 31.150 ms]
+                        thrpt:  [3.1350 GiB/s 3.1378 GiB/s 3.1403 GiB/s]
+Benchmarking Decrypt 100MB/OpenSSL camellia256-cbc
+Benchmarking Decrypt 100MB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 58.3s, or reduce sample count to 10.
+Benchmarking Decrypt 100MB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 58.323 s (100 iterations)
+Benchmarking Decrypt 100MB/OpenSSL camellia256-cbc: Analyzing
+Decrypt 100MB/OpenSSL camellia256-cbc
+                        time:   [582.52 ms 583.34 ms 584.22 ms]
+                        thrpt:  [171.17 MiB/s 171.43 MiB/s 171.67 MiB/s]
+Benchmarking Decrypt 100MB/OpenSSL chacha20poly1305
+Benchmarking Decrypt 100MB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 5.5s, or reduce sample count to 90.
+Benchmarking Decrypt 100MB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 5.4614 s (100 iterations)
+Benchmarking Decrypt 100MB/OpenSSL chacha20poly1305: Analyzing
+Decrypt 100MB/OpenSSL chacha20poly1305
+                        time:   [54.711 ms 54.806 ms 54.905 ms]
+                        thrpt:  [1.7787 GiB/s 1.7819 GiB/s 1.7849 GiB/s]
+Benchmarking Decrypt 100MB/RustCrypto chacha20poly1305
+Benchmarking Decrypt 100MB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 8.0s, or reduce sample count to 60.
+Benchmarking Decrypt 100MB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 8.0293 s (100 iterations)
+Benchmarking Decrypt 100MB/RustCrypto chacha20poly1305: Analyzing
+Decrypt 100MB/RustCrypto chacha20poly1305
+                        time:   [79.830 ms 79.905 ms 79.995 ms]
+                        thrpt:  [1.2208 GiB/s 1.2222 GiB/s 1.2233 GiB/s]
+Benchmarking Decrypt 100MB/RustCrypto xchacha20poly1305
+Benchmarking Decrypt 100MB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 7.9s, or reduce sample count to 60.
+Benchmarking Decrypt 100MB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 7.9400 s (100 iterations)
+Benchmarking Decrypt 100MB/RustCrypto xchacha20poly1305: Analyzing
+Decrypt 100MB/RustCrypto xchacha20poly1305
+                        time:   [79.653 ms 79.805 ms 79.963 ms]
+                        thrpt:  [1.2213 GiB/s 1.2237 GiB/s 1.2260 GiB/s]
+Benchmarking Decrypt 100MB/OpenSSL aes256-gcm
+Benchmarking Decrypt 100MB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+Benchmarking Decrypt 100MB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 6.2846 s (200 iterations)
+Benchmarking Decrypt 100MB/OpenSSL aes256-gcm: Analyzing
+Decrypt 100MB/OpenSSL aes256-gcm
+                        time:   [31.281 ms 31.320 ms 31.362 ms]
+                        thrpt:  [3.1139 GiB/s 3.1180 GiB/s 3.1219 GiB/s]
+Benchmarking Decrypt 100MB/RustCrypto ascon128
+Benchmarking Decrypt 100MB/RustCrypto ascon128: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 33.7s, or reduce sample count to 10.
+Benchmarking Decrypt 100MB/RustCrypto ascon128: Collecting 100 samples in estimated 33.674 s (100 iterations)
+Benchmarking Decrypt 100MB/RustCrypto ascon128: Analyzing
+Decrypt 100MB/RustCrypto ascon128
+                        time:   [333.78 ms 334.14 ms 334.54 ms]
+                        thrpt:  [298.92 MiB/s 299.28 MiB/s 299.60 MiB/s]
+
+Benchmarking Decrypt 1GB/OpenSSL chacha20
+Benchmarking Decrypt 1GB/OpenSSL chacha20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 40.6s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/OpenSSL chacha20: Collecting 100 samples in estimated 40.561 s (100 iterations)
+Benchmarking Decrypt 1GB/OpenSSL chacha20: Analyzing
+Decrypt 1GB/OpenSSL chacha20
+                        time:   [406.57 ms 407.22 ms 407.89 ms]
+                        thrpt:  [2.4517 GiB/s 2.4557 GiB/s 2.4596 GiB/s]
+Benchmarking Decrypt 1GB/RustCrypto chacha20
+Benchmarking Decrypt 1GB/RustCrypto chacha20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 43.2s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/RustCrypto chacha20: Collecting 100 samples in estimated 43.189 s (100 iterations)
+Benchmarking Decrypt 1GB/RustCrypto chacha20: Analyzing
+Decrypt 1GB/RustCrypto chacha20
+                        time:   [429.87 ms 430.45 ms 431.09 ms]
+                        thrpt:  [2.3197 GiB/s 2.3232 GiB/s 2.3263 GiB/s]
+Benchmarking Decrypt 1GB/RustCrypto xchacha20
+Benchmarking Decrypt 1GB/RustCrypto xchacha20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 49.5s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/RustCrypto xchacha20: Collecting 100 samples in estimated 49.494 s (100 iterations)
+Benchmarking Decrypt 1GB/RustCrypto xchacha20: Analyzing
+Decrypt 1GB/RustCrypto xchacha20
+                        time:   [430.68 ms 431.40 ms 432.16 ms]
+                        thrpt:  [2.3139 GiB/s 2.3180 GiB/s 2.3219 GiB/s]
+Benchmarking Decrypt 1GB/RustCrypto salsa20
+Benchmarking Decrypt 1GB/RustCrypto salsa20: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 160.0s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/RustCrypto salsa20: Collecting 100 samples in estimated 160.00 s (100 iterations)
+Benchmarking Decrypt 1GB/RustCrypto salsa20: Analyzing
+Decrypt 1GB/RustCrypto salsa20
+                        time:   [1.5864 s 1.5876 s 1.5889 s]
+                        thrpt:  [644.45 MiB/s 644.99 MiB/s 645.47 MiB/s]
+Benchmarking Decrypt 1GB/RustCrypto rabbit
+Benchmarking Decrypt 1GB/RustCrypto rabbit: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 121.5s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/RustCrypto rabbit: Collecting 100 samples in estimated 121.50 s (100 iterations)
+Benchmarking Decrypt 1GB/RustCrypto rabbit: Analyzing
+Decrypt 1GB/RustCrypto rabbit
+                        time:   [1.2084 s 1.2096 s 1.2109 s]
+                        thrpt:  [845.65 MiB/s 846.56 MiB/s 847.40 MiB/s]
+Benchmarking Decrypt 1GB/OpenSSL aes256-cbc
+Benchmarking Decrypt 1GB/OpenSSL aes256-cbc: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 31.2s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/OpenSSL aes256-cbc: Collecting 100 samples in estimated 31.215 s (100 iterations)
+Benchmarking Decrypt 1GB/OpenSSL aes256-cbc: Analyzing
+Decrypt 1GB/OpenSSL aes256-cbc
+                        time:   [308.86 ms 309.27 ms 309.72 ms]
+                        thrpt:  [3.2287 GiB/s 3.2334 GiB/s 3.2377 GiB/s]
+Benchmarking Decrypt 1GB/OpenSSL aes256-ctr
+Benchmarking Decrypt 1GB/OpenSSL aes256-ctr: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 31.0s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/OpenSSL aes256-ctr: Collecting 100 samples in estimated 30.989 s (100 iterations)
+Benchmarking Decrypt 1GB/OpenSSL aes256-ctr: Analyzing
+Decrypt 1GB/OpenSSL aes256-ctr
+                        time:   [308.78 ms 309.27 ms 309.79 ms]
+                        thrpt:  [3.2280 GiB/s 3.2334 GiB/s 3.2385 GiB/s]
+Benchmarking Decrypt 1GB/OpenSSL camellia256-cbc
+Benchmarking Decrypt 1GB/OpenSSL camellia256-cbc: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 595.5s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/OpenSSL camellia256-cbc: Collecting 100 samples in estimated 595.55 s (100 iterations)
+Benchmarking Decrypt 1GB/OpenSSL camellia256-cbc: Analyzing
+Decrypt 1GB/OpenSSL camellia256-cbc
+                        time:   [5.9541 s 5.9587 s 5.9635 s]
+                        thrpt:  [171.71 MiB/s 171.85 MiB/s 171.98 MiB/s]
+Benchmarking Decrypt 1GB/OpenSSL chacha20poly1305
+Benchmarking Decrypt 1GB/OpenSSL chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 57.3s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/OpenSSL chacha20poly1305: Collecting 100 samples in estimated 57.253 s (100 iterations)
+Benchmarking Decrypt 1GB/OpenSSL chacha20poly1305: Analyzing
+Decrypt 1GB/OpenSSL chacha20poly1305
+                        time:   [556.29 ms 556.95 ms 557.64 ms]
+                        thrpt:  [1.7933 GiB/s 1.7955 GiB/s 1.7976 GiB/s]
+Benchmarking Decrypt 1GB/RustCrypto chacha20poly1305
+Benchmarking Decrypt 1GB/RustCrypto chacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 84.5s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/RustCrypto chacha20poly1305: Collecting 100 samples in estimated 84.454 s (100 iterations)
+Benchmarking Decrypt 1GB/RustCrypto chacha20poly1305: Analyzing
+Decrypt 1GB/RustCrypto chacha20poly1305
+                        time:   [840.01 ms 841.57 ms 843.19 ms]
+                        thrpt:  [1.1860 GiB/s 1.1882 GiB/s 1.1905 GiB/s]
+Benchmarking Decrypt 1GB/RustCrypto xchacha20poly1305
+Benchmarking Decrypt 1GB/RustCrypto xchacha20poly1305: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 85.6s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/RustCrypto xchacha20poly1305: Collecting 100 samples in estimated 85.636 s (100 iterations)
+Benchmarking Decrypt 1GB/RustCrypto xchacha20poly1305: Analyzing
+Decrypt 1GB/RustCrypto xchacha20poly1305
+                        time:   [857.12 ms 857.94 ms 858.86 ms]
+                        thrpt:  [1.1643 GiB/s 1.1656 GiB/s 1.1667 GiB/s]
+Benchmarking Decrypt 1GB/OpenSSL aes256-gcm
+Benchmarking Decrypt 1GB/OpenSSL aes256-gcm: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 32.5s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/OpenSSL aes256-gcm: Collecting 100 samples in estimated 32.497 s (100 iterations)
+Benchmarking Decrypt 1GB/OpenSSL aes256-gcm: Analyzing
+Decrypt 1GB/OpenSSL aes256-gcm
+                        time:   [321.20 ms 321.43 ms 321.70 ms]
+                        thrpt:  [3.1085 GiB/s 3.1111 GiB/s 3.1133 GiB/s]
+Benchmarking Decrypt 1GB/RustCrypto ascon128
+Benchmarking Decrypt 1GB/RustCrypto ascon128: Warming up for 3.0000 s
+
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 354.7s, or reduce sample count to 10.
+Benchmarking Decrypt 1GB/RustCrypto ascon128: Collecting 100 samples in estimated 354.67 s (100 iterations)
+Benchmarking Decrypt 1GB/RustCrypto ascon128: Analyzing
+Decrypt 1GB/RustCrypto ascon128
+                        time:   [3.4965 s 3.4992 s 3.5020 s]
+                        thrpt:  [292.40 MiB/s 292.64 MiB/s 292.86 MiB/s]
+
+
+running 1 test
+test gift::tests::gift ... ignored
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
