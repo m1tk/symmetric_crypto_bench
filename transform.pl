@@ -59,36 +59,37 @@ foreach my $key (keys %{$hash{"Decrypt"}}) {
 # generate plot data
 
 my %units = (
-    "B" => 1024*1024,
-    "KIB" => 1024,
-    "MIB" => 1,
-    "GIB" => 1024
+    'B'  => 1,
+    'KIB'=> 1024,
+    'MIB'=> 1024 * 1024,
+    'GIB'=> 1024 * 1024 * 1024,
 );
 
 sub convert_to_mb {
     my ($value) = @_;
-    
-    my ($type, $size);
-    if ($value =~ /^(\d+\.\d+)\s*(MiB|KiB|GiB)\/.*?$/) {
-        $size = $1;
-        $type = uc($2);
-    }
+    return '-' unless defined $value;
 
-    if (!exists $units{$type}) {
-        print "Invalid unit: $type\n";
-        exit 1;
-    }
-
-    if ($type eq "GIB") {
-        return $size * $units{$type};
+    # accept formats like "1.23 MiB/s" or "123 KiB/s"
+    if ($value =~ /^\s*(\d+(?:\.\d+)?)\s*(B|KiB|MiB|GiB)\/.*$/i) {
+        my ($size, $unit) = ($1, uc $2);
+        unless (exists $units{$unit}) {
+            warn "Unknown unit '$unit' in value '$value'\n";
+            return '-';
+        }
+        my $bytes = $size * $units{$unit};
+        # convert bytes to decimal megabytes (MB = 10^6 bytes)
+        my $mb = $bytes / 1_000_000;
+        return sprintf("%.4f", $mb);
     } else {
-        return $size / $units{$type};
+        print "Unrecognized size format: '$value'\n";
+        return '-';
     }
 }
 
 sub bytes_to_mb {
     my ($value) = @_;
-    return $value/$units{"B"};
+    return '-' unless defined $value;
+    return sprintf("%.4f", $value / 1_000_000);
 }
 
 print "-------------------\n";
